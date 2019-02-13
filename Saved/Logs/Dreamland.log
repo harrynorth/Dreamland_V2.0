@@ -1,4 +1,4 @@
-﻿Log file open, 01/05/19 13:06:12
+﻿Log file open, 02/13/19 13:18:02
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Dreamland
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(506865582) SRandInit(506865582).
+LogInit: Display: RandInit(114812176) SRandInit(114812176).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.175600
+LogStats: Stats thread started at 0.329755
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.853s to configure plugins.
+LogStreaming: Display: Took  1.109s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -216,210 +216,1412 @@ LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line:  
+LogInit: Command Line: -EpicPortal  -epicusername="hnorth98" -epicuserid=7d0f246111664d4e9193fb5a192801f6 -epiclocale=en-GB
 LogInit: Base Directory: D:/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.01.05-13.06.13:189][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.05-13.06.13:189][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.01.05-13.06.13:226][  0]LogInit: Computer: DESKTOP-VJNJEKN
-[2019.01.05-13.06.13:226][  0]LogInit: User: hnort
-[2019.01.05-13.06.13:226][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.01.05-13.06.13:226][  0]LogInit: High frequency timer resolution =2.929692 MHz
-[2019.01.05-13.06.13:226][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.01.05-13.06.13:226][  0]LogMemory: Platform Memory Stats for Windows
-[2019.01.05-13.06.13:226][  0]LogMemory: Process Physical Memory: 272.81 MB used, 272.81 MB peak
-[2019.01.05-13.06.13:226][  0]LogMemory: Process Virtual Memory: 266.19 MB used, 266.19 MB peak
-[2019.01.05-13.06.13:226][  0]LogMemory: Physical Memory: 5111.59 MB used,  11215.70 MB free, 16327.29 MB total
-[2019.01.05-13.06.13:226][  0]LogMemory: Virtual Memory: 4786.34 MB used,  11215.70 MB free, 134217728.00 MB total
-[2019.01.05-13.06.13:247][  0]LogInit: Using OS detected language (en-GB).
-[2019.01.05-13.06.13:247][  0]LogInit: Using OS detected locale (en-GB).
-[2019.01.05-13.06.13:249][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2019.01.05-13.06.13:672][  0]LogStreaming: Display: Took  0.425s to EndInitTextLocalization.
-[2019.01.05-13.06.13:672][  0]LogInit: Setting process to per monitor DPI aware
-[2019.01.05-13.06.13:704][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.01.05-13.06.13:704][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.01.05-13.06.13:876][  0]LogD3D11RHI: D3D11 adapters:
-[2019.01.05-13.06.13:935][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
-[2019.01.05-13.06.13:935][  0]LogD3D11RHI:       2988/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.01.05-13.06.13:937][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.01.05-13.06.13:938][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.01.05-13.06.13:938][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.01.05-13.06.13:944][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.01.05-13.06.13:944][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
-[2019.01.05-13.06.13:944][  0]LogWindows: EnumDisplayDevices:
-[2019.01.05-13.06.13:944][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
-[2019.01.05-13.06.13:944][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2019.01.05-13.06.13:944][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2019.01.05-13.06.13:944][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
-[2019.01.05-13.06.13:945][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.01.05-13.06.13:945][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
-[2019.01.05-13.06.13:945][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.01.05-13.06.13:945][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.01.05-13.06.13:945][  0]LogRHI: Texture pool is 2091 MB (70% of 2988 MB)
-[2019.01.05-13.06.13:985][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.01.05-13.06.13:985][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2019.01.05-13.06.13:985][  0]LogD3D11RHI: Async texture creation enabled
-[2019.01.05-13.06.14:003][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.01.05-13.06.14:050][  0]LogShaderCompilers: Guid format shader working directory is 25 characters bigger than the processId version (F:/Project/Dreamland/Intermediate/Shaders/WorkingDirectory/11312/).
-[2019.01.05-13.06.14:050][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hnort/AppData/Local/Temp/UnrealShaderWorkingDir/50A895BE43E7B1EED72D609063AB49F0/'.
-[2019.01.05-13.06.14:241][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.01.05-13.06.14:254][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.01.05-13.06.14:268][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.01.05-13.06.14:281][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.01.05-13.06.14:295][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.01.05-13.06.14:308][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.01.05-13.06.14:321][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.01.05-13.06.14:336][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.01.05-13.06.14:341][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.01.05-13.06.14:354][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.01.05-13.06.14:366][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.01.05-13.06.14:378][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.01.05-13.06.14:390][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2019.01.05-13.06.14:402][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.01.05-13.06.14:413][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.01.05-13.06.14:437][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.01.05-13.06.14:437][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.01.05-13.06.14:449][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.01.05-13.06.14:450][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.01.05-13.06.14:486][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.01.05-13.06.14:497][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.01.05-13.06.14:509][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.01.05-13.06.14:520][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.01.05-13.06.14:533][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.01.05-13.06.14:545][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.01.05-13.06.14:546][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.01.05-13.06.14:634][  0]LogXGEController: Cleaning working directory: C:/Users/hnort/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.01.05-13.06.14:634][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.01.05-13.06.14:634][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.01.05-13.06.14:634][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.01.05-13.06.15:268][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.01.05-13.06.15:337][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/hnort/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.01.05-13.06.15:337][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hnort/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2019.01.05-13.06.15:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Project/Dreamland/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.01.05-13.06.15:338][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.01.05-13.06.15:338][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Project/Dreamland/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.01.05-13.06.15:338][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.01.05-13.06.15:353][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.01.05-13.06.15:366][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hnort/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.01.05-13.06.15:366][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.01.05-13.06.15:366][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.01.05-13.06.15:378][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.01.05-13.06.15:378][  0]LogSlate: Using Freetype 2.6.0
-[2019.01.05-13.06.15:378][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.05-13.06.15:378][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.01.05-13.06.15:490][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
-[2019.01.05-13.06.15:789][  0]LogInit: Selected Device Profile: [Windows]
-[2019.01.05-13.06.15:928][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.01.05-13.06.15:930][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.01.05-13.06.15:930][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.01.05-13.06.15:930][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.01.05-13.06.15:930][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.01.05-13.06.15:930][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.01.05-13.06.15:955][  0]LogNetVersion: Dreamland , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 271755495)
-[2019.01.05-13.06.16:441][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.128882 seconds
-[2019.01.05-13.06.16:446][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2019.01.05-13.06.16:446][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2019.01.05-13.06.16:446][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.01.05-13.06.17:912][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.01.05-13.06.17:937][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.01.05-13.06.18:230][  0]SourceControl: Source control is disabled
-[2019.01.05-13.06.18:230][  0]SourceControl: Source control is disabled
-[2019.01.05-13.06.18:244][  0]SourceControl: Source control is disabled
-[2019.01.05-13.06.18:258][  0]SourceControl: Source control is disabled
-[2019.01.05-13.06.18:666][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.01.05-13.06.18:859][  0]LogOcInput: OculusInput pre-init called
-[2019.01.05-13.06.18:951][  0]LogEngine: Initializing Engine...
-[2019.01.05-13.06.18:952][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.01.05-13.06.18:953][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.05-13.06.18:954][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.05-13.06.19:164][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.01.05-13.06.19:194][  0]LogInit: XAudio2 using 'Speakers (Elgato Sound Capture)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.01.05-13.06.19:204][  0]LogInit: FAudioDevice initialized.
-[2019.01.05-13.06.19:277][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/hnort/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2019.01.05-13.06.19:288][  0]LogInit: Texture streaming: Enabled
-[2019.01.05-13.06.19:301][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.01.05-13.06.19:316][  0]LogInit: Transaction tracking system initialized
-[2019.01.05-13.06.19:332][  0]BlueprintLog: New page: Editor Load
-[2019.01.05-13.06.19:390][  0]LocalizationService: Localization service is disabled
-[2019.01.05-13.06.19:458][  0]LogLinker: Warning: Can't find file '/Game/RollingBP/RollingOverview'
-[2019.01.05-13.06.19:458][  0]LogLinker: Warning: Can't find file '/Game/RollingBP/RollingOverview'
-[2019.01.05-13.06.19:458][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/RollingBP/RollingOverview.RollingOverview_C'
-[2019.01.05-13.06.19:476][  0]LogConsoleResponse: Display: 
-[2019.01.05-13.06.19:618][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.01.05-13.06.19:618][  0]LogCook: Display: Mobile HDR setting 1
-[2019.01.05-13.06.19:618][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.01.05-13.06.19:618][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.01.05-13.06.19:618][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.01.05-13.06.19:908][  0]LogFileCache: Scanning file cache for directory 'F:/Project/Dreamland/Content/' took 0.02s
-[2019.01.05-13.06.19:908][  0]SourceControl: Source control is disabled
-[2019.01.05-13.06.19:908][  0]Cmd: MAP LOAD FILE="F:/Project/Dreamland/Content/Dreamland/Levels/MidCastle/MidCastleLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.05-13.06.19:909][  0]LightingResults: New page: Lighting Build
-[2019.01.05-13.06.19:910][  0]MapCheck: New page: Map Check
-[2019.01.05-13.06.19:911][  0]LightingResults: New page: Lighting Build
-[2019.01.05-13.06.20:805][  0]LogAIModule: Creating AISystem for world MidCastleLevel
-[2019.01.05-13.06.20:816][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.05-13.06.20:829][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.05-13.06.20:870][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40.438ms to complete.
-[2019.01.05-13.06.20:870][  0]LogFileHelpers: Loading map 'MidCastleLevel' took 0.961
-[2019.01.05-13.06.21:000][  0]LogCollectionManager: Loaded 0 collections in 0.001118 seconds
-[2019.01.05-13.06.21:028][  0]LogFileCache: Scanning file cache for directory 'F:/Project/Dreamland/Saved/Collections/' took 0.01s
-[2019.01.05-13.06.21:028][  0]LogFileCache: Scanning file cache for directory 'F:/Project/Dreamland/Content/Developers/hnort/Collections/' took 0.01s
-[2019.01.05-13.06.21:028][  0]LogFileCache: Scanning file cache for directory 'F:/Project/Dreamland/Content/Collections/' took 0.00s
-[2019.01.05-13.06.21:028][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.01.05-13.06.21:037][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2452 classes and 558 folders.
-[2019.01.05-13.06.21:042][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.05-13.06.21:084][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.01.05-13.06.21:087][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.01.05-13.06.21:152][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.01.05-13.06.21:154][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.01.05-13.06.21:160][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.01.05-13.06.21:258][  0]LogRenderer: Reallocating scene render targets to support 1084x620 Format 10 NumSamples 1 (Frame:1).
-[2019.01.05-13.06.21:347][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.01.05-13.06.21:347][  0]LogLoad: (Engine Initialization) Total time: 10.92 seconds
-[2019.01.05-13.06.21:347][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.01.05-13.06.21:356][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.01.05-13.06.21:376][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.01.05-13.06.21:408][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.05-13.06.21:423][  1]LogAssetRegistry: Asset discovery search completed in 5.9550 seconds
-[2019.01.05-13.06.21:424][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.01.05-13.06.21:424][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
-[2019.01.05-13.06.30:342][ 62]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.05-13.06.45:059][821]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.01.05-13.06.45:619][821]LogAIModule: Creating AISystem for world SlowIslandsLevel
-[2019.01.05-13.06.45:646][821]Cmd: MAP LOAD FILE="F:/Project/Dreamland/Content/Dreamland/Levels/SlowIslands/SlowIslandsLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.01.05-13.06.45:646][821]LightingResults: New page: Lighting Build
-[2019.01.05-13.06.45:647][821]LoadErrors: New page: Loading map: SlowIslandsLevel.umap
-[2019.01.05-13.06.45:648][821]MapCheck: New page: Map Check
-[2019.01.05-13.06.45:648][821]LightingResults: New page: Lighting Build
-[2019.01.05-13.06.46:548][821]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.01.05-13.06.46:622][821]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.01.05-13.06.46:663][821]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.566ms to complete.
-[2019.01.05-13.06.46:668][821]LogFileHelpers: Loading map 'SlowIslandsLevel' took 1.023
-[2019.01.05-13.06.49:287][129]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.05-13.07.01:493][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.05-13.07.04:086][888]LogActorFactory: Actor Factory created Cube
-[2019.01.05-13.07.05:198][ 10]LogActorFactory: Actor Factory created Cube
-[2019.01.05-13.07.12:247][812]Cmd: DELETE
-[2019.01.05-13.07.12:247][812]Cmd: ACTOR DELETE
-[2019.01.05-13.07.12:251][812]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.01.05-13.07.12:262][812]LogEditorActor: Deleted 1 Actors (0.015 secs)
-[2019.01.05-13.07.27:253][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.05-13.07.44:017][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.05-13.07.51:316][416]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.05-13.07.58:276][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.05-13.08.06:444][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.05-13.08.09:485][514]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.05-13.08.11:829][514]LogSavePackage: Save=2297.96ms
-[2019.01.05-13.08.11:829][514]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/SlowIslandsLevelC661E99E4AEBDB665F0159B32F503CA6.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Levels/SlowIslands/SlowIslandsLevel.umap'
-[2019.01.05-13.08.11:838][514]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Levels/SlowIslands/SlowIslandsLevel.umap
-[2019.01.05-13.08.11:873][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dreamland/Levels/SlowIslands/SlowIslandsLevel_BuiltData" FILE="F:/Project/Dreamland/Content/Dreamland/Levels/SlowIslands/SlowIslandsLevel_BuiltData.uasset" SILENT=true
-[2019.01.05-13.08.12:703][514]LogSavePackage: Save=743.14ms
-[2019.01.05-13.08.12:703][514]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/SlowIslandsLevel_BuiltDataD3D82BAB425E074F8611B881804D597F.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Levels/SlowIslands/SlowIslandsLevel_BuiltData.uasset'
-[2019.01.05-13.08.12:706][514]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Levels/SlowIslands/SlowIslandsLevel_BuiltData.uasset
-[2019.01.05-13.08.14:156][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.01.05-13.08.19:821][817]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.05-13.08.22:449][129]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.01.05-13.08.24:584][380]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-13.18.03:735][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.13-13.18.03:735][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.13-13.18.03:794][  0]LogInit: Computer: DESKTOP-VJNJEKN
+[2019.02.13-13.18.03:794][  0]LogInit: User: hnort
+[2019.02.13-13.18.03:794][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.13-13.18.03:794][  0]LogInit: High frequency timer resolution =2.929695 MHz
+[2019.02.13-13.18.03:794][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.02.13-13.18.03:794][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.13-13.18.03:794][  0]LogMemory: Process Physical Memory: 273.88 MB used, 273.88 MB peak
+[2019.02.13-13.18.03:794][  0]LogMemory: Process Virtual Memory: 266.14 MB used, 266.14 MB peak
+[2019.02.13-13.18.03:794][  0]LogMemory: Physical Memory: 5262.43 MB used,  11064.86 MB free, 16327.29 MB total
+[2019.02.13-13.18.03:794][  0]LogMemory: Virtual Memory: 4786.34 MB used,  11064.86 MB free, 134217728.00 MB total
+[2019.02.13-13.18.03:814][  0]LogInit: Using OS detected language (en-GB).
+[2019.02.13-13.18.03:814][  0]LogInit: Using OS detected locale (en-GB).
+[2019.02.13-13.18.03:817][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.02.13-13.18.04:248][  0]LogStreaming: Display: Took  0.434s to EndInitTextLocalization.
+[2019.02.13-13.18.04:248][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.13-13.18.04:287][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.13-13.18.04:287][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.13-13.18.04:470][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.13-13.18.04:528][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2019.02.13-13.18.04:529][  0]LogD3D11RHI:       2988/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.02.13-13.18.04:531][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.13-13.18.04:531][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.13-13.18.04:531][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.13-13.18.04:537][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.13-13.18.04:537][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.13-13.18.04:537][  0]LogWindows: EnumDisplayDevices:
+[2019.02.13-13.18.04:537][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2019.02.13-13.18.04:538][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.02.13-13.18.04:538][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.02.13-13.18.04:538][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.02.13-13.18.04:538][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.02.13-13.18.04:538][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2019.02.13-13.18.04:538][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.02.13-13.18.04:538][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.02.13-13.18.04:538][  0]LogRHI: Texture pool is 2091 MB (70% of 2988 MB)
+[2019.02.13-13.18.04:579][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.02.13-13.18.04:579][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.02.13-13.18.04:579][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.13-13.18.04:597][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.13-13.18.04:645][  0]LogShaderCompilers: Guid format shader working directory is 26 characters bigger than the processId version (F:/Project/Dreamland/Intermediate/Shaders/WorkingDirectory/6936/).
+[2019.02.13-13.18.04:645][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hnort/AppData/Local/Temp/UnrealShaderWorkingDir/3A2F6A0F4340261813FBE1A7528EA22C/'.
+[2019.02.13-13.18.04:845][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.13-13.18.04:858][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.13-13.18.04:873][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.13-13.18.04:886][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.13-13.18.04:901][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.13-13.18.04:915][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.13-13.18.04:929][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.13-13.18.04:943][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.13-13.18.04:950][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.13-13.18.04:963][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.02.13-13.18.04:975][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.02.13-13.18.04:989][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.02.13-13.18.05:001][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.02.13-13.18.05:014][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.02.13-13.18.05:026][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.02.13-13.18.05:052][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.02.13-13.18.05:052][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.02.13-13.18.05:065][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.13-13.18.05:066][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.13-13.18.05:104][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.13-13.18.05:116][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.13-13.18.05:129][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.13-13.18.05:142][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.13-13.18.05:154][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.13-13.18.05:168][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.13-13.18.05:168][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.13-13.18.05:260][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.13-13.18.05:260][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.13-13.18.05:260][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.13-13.18.05:926][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.13-13.18.05:993][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/hnort/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.02.13-13.18.05:993][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hnort/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.02.13-13.18.05:993][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Project/Dreamland/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.13-13.18.05:993][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.13-13.18.05:994][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Project/Dreamland/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.13-13.18.05:994][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.13-13.18.06:009][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.13-13.18.06:022][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hnort/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.13-13.18.06:022][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.13-13.18.06:022][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.13-13.18.06:034][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.13-13.18.06:034][  0]LogSlate: Using Freetype 2.6.0
+[2019.02.13-13.18.06:035][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.13-13.18.06:035][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.13-13.18.06:148][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2019.02.13-13.18.06:465][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.13-13.18.06:603][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.13-13.18.06:605][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.13-13.18.06:605][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.13-13.18.06:605][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.13-13.18.06:605][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.02.13-13.18.06:605][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.02.13-13.18.06:632][  0]LogNetVersion: Dreamland , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 271755495)
+[2019.02.13-13.18.07:788][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.752171 seconds
+[2019.02.13-13.18.07:794][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.02.13-13.18.07:794][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2019.02.13-13.18.07:794][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.13-13.18.09:326][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.13-13.18.09:352][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.13-13.18.09:656][  0]SourceControl: Source control is disabled
+[2019.02.13-13.18.09:656][  0]SourceControl: Source control is disabled
+[2019.02.13-13.18.09:671][  0]SourceControl: Source control is disabled
+[2019.02.13-13.18.09:686][  0]SourceControl: Source control is disabled
+[2019.02.13-13.18.10:099][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.13-13.18.10:297][  0]LogOcInput: OculusInput pre-init called
+[2019.02.13-13.18.10:393][  0]LogEngine: Initializing Engine...
+[2019.02.13-13.18.10:395][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.13-13.18.10:396][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.13-13.18.10:396][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.13-13.18.10:604][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.13-13.18.10:637][  0]LogInit: XAudio2 using 'Speakers (Elgato Sound Capture)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.13-13.18.10:648][  0]LogInit: FAudioDevice initialized.
+[2019.02.13-13.18.10:724][  0]LogDerivedDataCache: Saved boot cache 0.07s 74MB C:/Users/hnort/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.02.13-13.18.10:741][  0]LogInit: Texture streaming: Enabled
+[2019.02.13-13.18.10:753][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.13-13.18.10:766][  0]LogInit: Transaction tracking system initialized
+[2019.02.13-13.18.10:784][  0]BlueprintLog: New page: Editor Load
+[2019.02.13-13.18.10:843][  0]LocalizationService: Localization service is disabled
+[2019.02.13-13.18.10:910][  0]LogLinker: Warning: Can't find file '/Game/RollingBP/RollingOverview'
+[2019.02.13-13.18.10:910][  0]LogLinker: Warning: Can't find file '/Game/RollingBP/RollingOverview'
+[2019.02.13-13.18.10:910][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/RollingBP/RollingOverview.RollingOverview_C'
+[2019.02.13-13.18.10:928][  0]LogConsoleResponse: Display: 
+[2019.02.13-13.18.11:115][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.13-13.18.11:115][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.13-13.18.11:115][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.13-13.18.11:115][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.13-13.18.11:115][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.13-13.18.11:199][  0]LogFileCache: Scanning file cache for directory 'F:/Project/Dreamland/Content/' took 0.03s
+[2019.02.13-13.18.11:413][  0]SourceControl: Source control is disabled
+[2019.02.13-13.18.11:413][  0]Cmd: MAP LOAD FILE="F:/Project/Dreamland/Content/Dreamland/Levels/MidCastle/MidCastleLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.13-13.18.11:442][  0]LightingResults: New page: Lighting Build
+[2019.02.13-13.18.11:444][  0]MapCheck: New page: Map Check
+[2019.02.13-13.18.11:444][  0]LightingResults: New page: Lighting Build
+[2019.02.13-13.18.12:482][  0]LogAIModule: Creating AISystem for world MidCastleLevel
+[2019.02.13-13.18.12:493][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.13-13.18.12:509][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.13-13.18.12:551][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.609ms to complete.
+[2019.02.13-13.18.12:551][  0]LogFileHelpers: Loading map 'MidCastleLevel' took 1.138
+[2019.02.13-13.18.12:880][  0]LogCollectionManager: Loaded 0 collections in 0.018958 seconds
+[2019.02.13-13.18.12:910][  0]LogFileCache: Scanning file cache for directory 'F:/Project/Dreamland/Saved/Collections/' took 0.01s
+[2019.02.13-13.18.12:910][  0]LogFileCache: Scanning file cache for directory 'F:/Project/Dreamland/Content/Developers/hnort/Collections/' took 0.01s
+[2019.02.13-13.18.12:910][  0]LogFileCache: Scanning file cache for directory 'F:/Project/Dreamland/Content/Collections/' took 0.00s
+[2019.02.13-13.18.12:910][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.13-13.18.12:920][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2452 classes and 558 folders.
+[2019.02.13-13.18.12:925][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.13-13.18.13:718][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.13-13.18.13:759][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.02.13-13.18.14:006][  0]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.13-13.18.14:009][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.13-13.18.14:031][  0]LogSlate: Took 0.015200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.13-13.18.14:296][  0]LogRenderer: Reallocating scene render targets to support 1328x544 Format 10 NumSamples 1 (Frame:1).
+[2019.02.13-13.18.14:641][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.02.13-13.18.14:641][  0]LogLoad: (Engine Initialization) Total time: 13.84 seconds
+[2019.02.13-13.18.14:641][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.13-13.18.15:005][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.13-13.18.15:168][  1]LogRenderer: Reallocating scene render targets to support 1328x560 Format 10 NumSamples 1 (Frame:3).
+[2019.02.13-13.18.15:330][  1]LogAssetRegistry: Asset discovery search completed in 9.2043 seconds
+[2019.02.13-13.18.15:332][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.13-13.18.15:333][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000127 seconds (updated 0 objects)
+[2019.02.13-13.18.16:010][  3]LogSlate: Took 0.027888 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.13-13.18.19:319][ 13]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.13-13.18.35:827][774]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.13-13.18.37:393][960]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.13-13.18.38:940][138]Cmd: MAP LOAD FILE="F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.13-13.18.38:953][138]LightingResults: New page: Lighting Build
+[2019.02.13-13.18.38:954][138]LoadErrors: New page: Loading map: FastLevel.umap
+[2019.02.13-13.18.38:958][138]MapCheck: New page: Map Check
+[2019.02.13-13.18.38:958][138]LightingResults: New page: Lighting Build
+[2019.02.13-13.18.39:219][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea572bd4c0, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.02.13-13.18.39:231][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ea572bd4c0, Size=64
+[2019.02.13-13.18.39:231][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea572bdd00, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.02.13-13.18.39:238][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea65f1e660, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.02.13-13.18.39:584][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea74e4a200, Size=264, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2019.02.13-13.18.39:589][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ea74e4a200, Size=264
+[2019.02.13-13.18.39:589][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea74e4a200, Size=264, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_6:ExecuteUbergraph_ThirdPersonCharacter
+[2019.02.13-13.18.39:595][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea74e48a40, Size=264, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2019.02.13-13.18.39:753][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea66393740, Size=200, Default__CollectibleObject_C Function /Game/Dreamland/Blueprints/CollectibleObject/CollectibleObject.CollectibleObject_C:ExecuteUbergraph_CollectibleObject
+[2019.02.13-13.18.39:755][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ea66393740, Size=200
+[2019.02.13-13.18.39:755][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea66393740, Size=200, Default__CollectibleObject_C Function /Engine/Transient.REINST_CollectibleObject_C_8:ExecuteUbergraph_CollectibleObject
+[2019.02.13-13.18.39:756][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea663925c0, Size=200, Default__CollectibleObject_C Function /Game/Dreamland/Blueprints/CollectibleObject/CollectibleObject.CollectibleObject_C:ExecuteUbergraph_CollectibleObject
+[2019.02.13-13.18.39:804][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea66391ec0, Size=216, Default__FallingPlatforms_C Function /Game/Dreamland/Blueprints/Platforms/FallingPlatforms.FallingPlatforms_C:ExecuteUbergraph_FallingPlatforms
+[2019.02.13-13.18.39:807][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ea66391ec0, Size=216
+[2019.02.13-13.18.39:807][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea66391ec0, Size=216, Default__FallingPlatforms_C Function /Engine/Transient.REINST_FallingPlatforms_C_10:ExecuteUbergraph_FallingPlatforms
+[2019.02.13-13.18.39:809][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea66390480, Size=216, Default__FallingPlatforms_C Function /Game/Dreamland/Blueprints/Platforms/FallingPlatforms.FallingPlatforms_C:ExecuteUbergraph_FallingPlatforms
+[2019.02.13-13.18.39:815][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea57296d40, Size=168, Default__MovingPlatforms_C Function /Game/Dreamland/Blueprints/Platforms/MovingPlatforms.MovingPlatforms_C:ExecuteUbergraph_MovingPlatforms
+[2019.02.13-13.18.39:817][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ea57296d40, Size=168
+[2019.02.13-13.18.39:817][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea57296d40, Size=168, Default__MovingPlatforms_C Function /Engine/Transient.REINST_MovingPlatforms_C_12:ExecuteUbergraph_MovingPlatforms
+[2019.02.13-13.18.39:819][138]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ea57297ac0, Size=168, Default__MovingPlatforms_C Function /Game/Dreamland/Blueprints/Platforms/MovingPlatforms.MovingPlatforms_C:ExecuteUbergraph_MovingPlatforms
+[2019.02.13-13.18.41:045][138]LogSkeletalMesh: Skeletal Mesh found in DDC [36.977570ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2019.02.13-13.18.41:274][138]LogAIModule: Creating AISystem for world FastLevel
+[2019.02.13-13.18.41:412][138]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.13-13.18.41:427][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ea57296d40, Size=168
+[2019.02.13-13.18.41:427][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ea66391ec0, Size=216
+[2019.02.13-13.18.41:427][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ea66393740, Size=200
+[2019.02.13-13.18.41:427][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ea74e4a200, Size=264
+[2019.02.13-13.18.41:427][138]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ea572bdd00, Size=64
+[2019.02.13-13.18.41:498][138]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.13-13.18.41:548][138]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.387ms to complete.
+[2019.02.13-13.18.41:548][138]LogFileHelpers: Loading map 'FastLevel' took 2.609
+[2019.02.13-13.18.41:550][138]LogSlate: Window 'Open Level' being destroyed
+[2019.02.13-13.19.01:623][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-13.24.10:758][436]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.13-13.24.12:803][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-13.24.24:926][523]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Itch/assetforge/BrickWorld_5x25.obj)
+[2019.02.13-13.24.24:960][523]LogFbx: Loading FBX Scene from ../../../../../Itch/assetforge/BrickWorld_5x25.obj
+[2019.02.13-13.24.26:069][523]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.13-13.24.54:314][523]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.02.13-13.24.54:699][523]LogFbx: Loading FBX Scene from ../../../../../Itch/assetforge/BrickWorld_5x25.obj
+[2019.02.13-13.24.55:810][523]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.13-13.24.56:175][523]LogStaticMesh: Building static mesh BrickWorld_5x25...
+[2019.02.13-13.25.22:310][523]LogStaticMesh: Built static mesh [26.13s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25.BrickWorld_5x25
+[2019.02.13-13.25.23:043][523]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.02.13-13.25.23:447][523]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Itch/assetforge/BrickWorld_5x25_2.obj)
+[2019.02.13-13.25.28:341][523]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.02.13-13.25.28:398][523]LogFbx: Loading FBX Scene from ../../../../../Itch/assetforge/BrickWorld_5x25_2.obj
+[2019.02.13-13.25.29:517][523]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.13-13.25.29:696][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_0...
+[2019.02.13-13.25.29:751][523]LogStaticMesh: Built static mesh [0.21s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_0.BrickWorld_5x25_2_brick_4by4_0
+[2019.02.13-13.25.29:765][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1...
+[2019.02.13-13.25.29:822][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1.BrickWorld_5x25_2_brick_4by4_1
+[2019.02.13-13.25.29:835][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_10...
+[2019.02.13-13.25.29:891][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_10.BrickWorld_5x25_2_brick_4by4_10
+[2019.02.13-13.25.29:916][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_100...
+[2019.02.13-13.25.29:972][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_100.BrickWorld_5x25_2_brick_4by4_100
+[2019.02.13-13.25.29:991][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_101...
+[2019.02.13-13.25.30:048][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_101.BrickWorld_5x25_2_brick_4by4_101
+[2019.02.13-13.25.30:059][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_102...
+[2019.02.13-13.25.30:118][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_102.BrickWorld_5x25_2_brick_4by4_102
+[2019.02.13-13.25.30:132][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_103...
+[2019.02.13-13.25.30:188][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_103.BrickWorld_5x25_2_brick_4by4_103
+[2019.02.13-13.25.30:205][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_104...
+[2019.02.13-13.25.30:261][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_104.BrickWorld_5x25_2_brick_4by4_104
+[2019.02.13-13.25.30:274][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_105...
+[2019.02.13-13.25.30:332][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_105.BrickWorld_5x25_2_brick_4by4_105
+[2019.02.13-13.25.30:345][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_106...
+[2019.02.13-13.25.30:403][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_106.BrickWorld_5x25_2_brick_4by4_106
+[2019.02.13-13.25.30:417][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_107...
+[2019.02.13-13.25.30:473][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_107.BrickWorld_5x25_2_brick_4by4_107
+[2019.02.13-13.25.30:488][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_108...
+[2019.02.13-13.25.30:545][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_108.BrickWorld_5x25_2_brick_4by4_108
+[2019.02.13-13.25.30:557][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_109...
+[2019.02.13-13.25.30:613][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_109.BrickWorld_5x25_2_brick_4by4_109
+[2019.02.13-13.25.30:627][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_11...
+[2019.02.13-13.25.30:682][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_11.BrickWorld_5x25_2_brick_4by4_11
+[2019.02.13-13.25.30:696][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_110...
+[2019.02.13-13.25.30:751][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_110.BrickWorld_5x25_2_brick_4by4_110
+[2019.02.13-13.25.30:764][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_111...
+[2019.02.13-13.25.30:822][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_111.BrickWorld_5x25_2_brick_4by4_111
+[2019.02.13-13.25.30:836][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_112...
+[2019.02.13-13.25.30:893][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_112.BrickWorld_5x25_2_brick_4by4_112
+[2019.02.13-13.25.30:907][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_113...
+[2019.02.13-13.25.30:964][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_113.BrickWorld_5x25_2_brick_4by4_113
+[2019.02.13-13.25.30:978][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_114...
+[2019.02.13-13.25.31:035][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_114.BrickWorld_5x25_2_brick_4by4_114
+[2019.02.13-13.25.31:049][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_115...
+[2019.02.13-13.25.31:106][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_115.BrickWorld_5x25_2_brick_4by4_115
+[2019.02.13-13.25.31:119][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_116...
+[2019.02.13-13.25.31:175][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_116.BrickWorld_5x25_2_brick_4by4_116
+[2019.02.13-13.25.31:188][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_117...
+[2019.02.13-13.25.31:247][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_117.BrickWorld_5x25_2_brick_4by4_117
+[2019.02.13-13.25.31:261][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_118...
+[2019.02.13-13.25.31:317][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_118.BrickWorld_5x25_2_brick_4by4_118
+[2019.02.13-13.25.31:331][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_119...
+[2019.02.13-13.25.31:386][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_119.BrickWorld_5x25_2_brick_4by4_119
+[2019.02.13-13.25.31:399][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_12...
+[2019.02.13-13.25.31:453][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_12.BrickWorld_5x25_2_brick_4by4_12
+[2019.02.13-13.25.31:467][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_120...
+[2019.02.13-13.25.31:522][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_120.BrickWorld_5x25_2_brick_4by4_120
+[2019.02.13-13.25.31:534][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_121...
+[2019.02.13-13.25.31:588][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_121.BrickWorld_5x25_2_brick_4by4_121
+[2019.02.13-13.25.31:600][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_122...
+[2019.02.13-13.25.31:654][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_122.BrickWorld_5x25_2_brick_4by4_122
+[2019.02.13-13.25.31:666][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_123...
+[2019.02.13-13.25.31:722][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_123.BrickWorld_5x25_2_brick_4by4_123
+[2019.02.13-13.25.31:743][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_124...
+[2019.02.13-13.25.31:797][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_124.BrickWorld_5x25_2_brick_4by4_124
+[2019.02.13-13.25.31:808][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_125...
+[2019.02.13-13.25.31:863][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_125.BrickWorld_5x25_2_brick_4by4_125
+[2019.02.13-13.25.31:876][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_126...
+[2019.02.13-13.25.31:931][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_126.BrickWorld_5x25_2_brick_4by4_126
+[2019.02.13-13.25.31:942][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_127...
+[2019.02.13-13.25.31:997][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_127.BrickWorld_5x25_2_brick_4by4_127
+[2019.02.13-13.25.32:009][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_128...
+[2019.02.13-13.25.32:063][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_128.BrickWorld_5x25_2_brick_4by4_128
+[2019.02.13-13.25.32:076][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_129...
+[2019.02.13-13.25.32:132][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_129.BrickWorld_5x25_2_brick_4by4_129
+[2019.02.13-13.25.32:145][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_13...
+[2019.02.13-13.25.32:201][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_13.BrickWorld_5x25_2_brick_4by4_13
+[2019.02.13-13.25.32:214][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_130...
+[2019.02.13-13.25.32:270][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_130.BrickWorld_5x25_2_brick_4by4_130
+[2019.02.13-13.25.32:283][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_131...
+[2019.02.13-13.25.32:339][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_131.BrickWorld_5x25_2_brick_4by4_131
+[2019.02.13-13.25.32:351][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1310...
+[2019.02.13-13.25.32:407][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1310.BrickWorld_5x25_2_brick_4by4_1310
+[2019.02.13-13.25.32:418][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1311...
+[2019.02.13-13.25.32:475][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1311.BrickWorld_5x25_2_brick_4by4_1311
+[2019.02.13-13.25.32:488][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1312...
+[2019.02.13-13.25.32:545][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1312.BrickWorld_5x25_2_brick_4by4_1312
+[2019.02.13-13.25.32:556][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1313...
+[2019.02.13-13.25.32:615][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1313.BrickWorld_5x25_2_brick_4by4_1313
+[2019.02.13-13.25.32:628][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1314...
+[2019.02.13-13.25.32:686][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1314.BrickWorld_5x25_2_brick_4by4_1314
+[2019.02.13-13.25.32:700][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1315...
+[2019.02.13-13.25.32:756][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1315.BrickWorld_5x25_2_brick_4by4_1315
+[2019.02.13-13.25.32:768][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1318...
+[2019.02.13-13.25.32:824][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1318.BrickWorld_5x25_2_brick_4by4_1318
+[2019.02.13-13.25.32:837][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_132...
+[2019.02.13-13.25.32:893][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_132.BrickWorld_5x25_2_brick_4by4_132
+[2019.02.13-13.25.32:915][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1329...
+[2019.02.13-13.25.32:972][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1329.BrickWorld_5x25_2_brick_4by4_1329
+[2019.02.13-13.25.32:983][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_133...
+[2019.02.13-13.25.33:037][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_133.BrickWorld_5x25_2_brick_4by4_133
+[2019.02.13-13.25.33:050][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1330...
+[2019.02.13-13.25.33:107][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1330.BrickWorld_5x25_2_brick_4by4_1330
+[2019.02.13-13.25.33:120][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1331...
+[2019.02.13-13.25.33:178][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1331.BrickWorld_5x25_2_brick_4by4_1331
+[2019.02.13-13.25.33:191][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_134...
+[2019.02.13-13.25.33:248][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_134.BrickWorld_5x25_2_brick_4by4_134
+[2019.02.13-13.25.33:260][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1344...
+[2019.02.13-13.25.33:317][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1344.BrickWorld_5x25_2_brick_4by4_1344
+[2019.02.13-13.25.33:331][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1345...
+[2019.02.13-13.25.33:388][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1345.BrickWorld_5x25_2_brick_4by4_1345
+[2019.02.13-13.25.33:400][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1348...
+[2019.02.13-13.25.33:457][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1348.BrickWorld_5x25_2_brick_4by4_1348
+[2019.02.13-13.25.33:471][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_135...
+[2019.02.13-13.25.33:528][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_135.BrickWorld_5x25_2_brick_4by4_135
+[2019.02.13-13.25.33:540][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1356...
+[2019.02.13-13.25.33:598][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1356.BrickWorld_5x25_2_brick_4by4_1356
+[2019.02.13-13.25.33:610][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1357...
+[2019.02.13-13.25.33:666][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1357.BrickWorld_5x25_2_brick_4by4_1357
+[2019.02.13-13.25.33:677][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1358...
+[2019.02.13-13.25.33:734][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1358.BrickWorld_5x25_2_brick_4by4_1358
+[2019.02.13-13.25.33:748][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1359...
+[2019.02.13-13.25.33:803][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1359.BrickWorld_5x25_2_brick_4by4_1359
+[2019.02.13-13.25.33:816][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_136...
+[2019.02.13-13.25.33:871][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_136.BrickWorld_5x25_2_brick_4by4_136
+[2019.02.13-13.25.33:882][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1360...
+[2019.02.13-13.25.33:937][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1360.BrickWorld_5x25_2_brick_4by4_1360
+[2019.02.13-13.25.33:950][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1366...
+[2019.02.13-13.25.34:005][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1366.BrickWorld_5x25_2_brick_4by4_1366
+[2019.02.13-13.25.34:016][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1367...
+[2019.02.13-13.25.34:072][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1367.BrickWorld_5x25_2_brick_4by4_1367
+[2019.02.13-13.25.34:083][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_137...
+[2019.02.13-13.25.34:138][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_137.BrickWorld_5x25_2_brick_4by4_137
+[2019.02.13-13.25.34:151][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1371...
+[2019.02.13-13.25.34:206][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1371.BrickWorld_5x25_2_brick_4by4_1371
+[2019.02.13-13.25.34:218][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1372...
+[2019.02.13-13.25.34:278][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1372.BrickWorld_5x25_2_brick_4by4_1372
+[2019.02.13-13.25.34:291][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1373...
+[2019.02.13-13.25.34:346][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1373.BrickWorld_5x25_2_brick_4by4_1373
+[2019.02.13-13.25.34:359][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1374...
+[2019.02.13-13.25.34:414][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1374.BrickWorld_5x25_2_brick_4by4_1374
+[2019.02.13-13.25.34:425][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1375...
+[2019.02.13-13.25.34:481][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1375.BrickWorld_5x25_2_brick_4by4_1375
+[2019.02.13-13.25.34:494][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1376...
+[2019.02.13-13.25.34:550][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1376.BrickWorld_5x25_2_brick_4by4_1376
+[2019.02.13-13.25.34:561][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1377...
+[2019.02.13-13.25.34:617][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1377.BrickWorld_5x25_2_brick_4by4_1377
+[2019.02.13-13.25.34:630][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1378...
+[2019.02.13-13.25.34:687][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1378.BrickWorld_5x25_2_brick_4by4_1378
+[2019.02.13-13.25.34:700][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1379...
+[2019.02.13-13.25.34:756][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1379.BrickWorld_5x25_2_brick_4by4_1379
+[2019.02.13-13.25.34:772][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_138...
+[2019.02.13-13.25.34:828][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_138.BrickWorld_5x25_2_brick_4by4_138
+[2019.02.13-13.25.34:841][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1380...
+[2019.02.13-13.25.34:898][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1380.BrickWorld_5x25_2_brick_4by4_1380
+[2019.02.13-13.25.34:910][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1381...
+[2019.02.13-13.25.34:966][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1381.BrickWorld_5x25_2_brick_4by4_1381
+[2019.02.13-13.25.34:980][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1382...
+[2019.02.13-13.25.35:038][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1382.BrickWorld_5x25_2_brick_4by4_1382
+[2019.02.13-13.25.35:050][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1383...
+[2019.02.13-13.25.35:107][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1383.BrickWorld_5x25_2_brick_4by4_1383
+[2019.02.13-13.25.35:117][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1384...
+[2019.02.13-13.25.35:175][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1384.BrickWorld_5x25_2_brick_4by4_1384
+[2019.02.13-13.25.35:187][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1385...
+[2019.02.13-13.25.35:243][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1385.BrickWorld_5x25_2_brick_4by4_1385
+[2019.02.13-13.25.35:255][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1386...
+[2019.02.13-13.25.35:312][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1386.BrickWorld_5x25_2_brick_4by4_1386
+[2019.02.13-13.25.35:325][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1387...
+[2019.02.13-13.25.35:384][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1387.BrickWorld_5x25_2_brick_4by4_1387
+[2019.02.13-13.25.35:397][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1388...
+[2019.02.13-13.25.35:453][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1388.BrickWorld_5x25_2_brick_4by4_1388
+[2019.02.13-13.25.35:465][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1389...
+[2019.02.13-13.25.35:524][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1389.BrickWorld_5x25_2_brick_4by4_1389
+[2019.02.13-13.25.35:536][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_139...
+[2019.02.13-13.25.35:596][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_139.BrickWorld_5x25_2_brick_4by4_139
+[2019.02.13-13.25.35:610][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1390...
+[2019.02.13-13.25.35:671][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1390.BrickWorld_5x25_2_brick_4by4_1390
+[2019.02.13-13.25.35:681][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1391...
+[2019.02.13-13.25.35:740][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1391.BrickWorld_5x25_2_brick_4by4_1391
+[2019.02.13-13.25.35:753][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1392...
+[2019.02.13-13.25.35:811][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1392.BrickWorld_5x25_2_brick_4by4_1392
+[2019.02.13-13.25.35:825][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1393...
+[2019.02.13-13.25.35:886][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1393.BrickWorld_5x25_2_brick_4by4_1393
+[2019.02.13-13.25.35:899][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1394...
+[2019.02.13-13.25.35:960][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1394.BrickWorld_5x25_2_brick_4by4_1394
+[2019.02.13-13.25.35:974][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1395...
+[2019.02.13-13.25.36:036][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1395.BrickWorld_5x25_2_brick_4by4_1395
+[2019.02.13-13.25.36:052][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1396...
+[2019.02.13-13.25.36:107][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1396.BrickWorld_5x25_2_brick_4by4_1396
+[2019.02.13-13.25.36:119][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1397...
+[2019.02.13-13.25.36:174][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1397.BrickWorld_5x25_2_brick_4by4_1397
+[2019.02.13-13.25.36:186][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1398...
+[2019.02.13-13.25.36:240][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1398.BrickWorld_5x25_2_brick_4by4_1398
+[2019.02.13-13.25.36:254][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1399...
+[2019.02.13-13.25.36:309][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1399.BrickWorld_5x25_2_brick_4by4_1399
+[2019.02.13-13.25.36:320][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_14...
+[2019.02.13-13.25.36:374][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_14.BrickWorld_5x25_2_brick_4by4_14
+[2019.02.13-13.25.36:385][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_140...
+[2019.02.13-13.25.36:439][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_140.BrickWorld_5x25_2_brick_4by4_140
+[2019.02.13-13.25.36:454][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1400...
+[2019.02.13-13.25.36:509][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1400.BrickWorld_5x25_2_brick_4by4_1400
+[2019.02.13-13.25.36:519][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1401...
+[2019.02.13-13.25.36:573][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1401.BrickWorld_5x25_2_brick_4by4_1401
+[2019.02.13-13.25.36:586][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1402...
+[2019.02.13-13.25.36:641][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1402.BrickWorld_5x25_2_brick_4by4_1402
+[2019.02.13-13.25.36:655][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1403...
+[2019.02.13-13.25.36:710][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1403.BrickWorld_5x25_2_brick_4by4_1403
+[2019.02.13-13.25.36:722][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1404...
+[2019.02.13-13.25.36:777][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1404.BrickWorld_5x25_2_brick_4by4_1404
+[2019.02.13-13.25.36:787][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1405...
+[2019.02.13-13.25.36:843][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1405.BrickWorld_5x25_2_brick_4by4_1405
+[2019.02.13-13.25.36:856][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1406...
+[2019.02.13-13.25.36:911][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1406.BrickWorld_5x25_2_brick_4by4_1406
+[2019.02.13-13.25.36:923][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1407...
+[2019.02.13-13.25.36:978][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1407.BrickWorld_5x25_2_brick_4by4_1407
+[2019.02.13-13.25.36:990][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1408...
+[2019.02.13-13.25.37:045][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1408.BrickWorld_5x25_2_brick_4by4_1408
+[2019.02.13-13.25.37:057][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1409...
+[2019.02.13-13.25.37:112][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1409.BrickWorld_5x25_2_brick_4by4_1409
+[2019.02.13-13.25.37:123][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_141...
+[2019.02.13-13.25.37:178][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_141.BrickWorld_5x25_2_brick_4by4_141
+[2019.02.13-13.25.37:189][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1410...
+[2019.02.13-13.25.37:246][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1410.BrickWorld_5x25_2_brick_4by4_1410
+[2019.02.13-13.25.37:260][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1411...
+[2019.02.13-13.25.37:316][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1411.BrickWorld_5x25_2_brick_4by4_1411
+[2019.02.13-13.25.37:327][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1412...
+[2019.02.13-13.25.37:384][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1412.BrickWorld_5x25_2_brick_4by4_1412
+[2019.02.13-13.25.37:396][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1413...
+[2019.02.13-13.25.37:453][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1413.BrickWorld_5x25_2_brick_4by4_1413
+[2019.02.13-13.25.37:466][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1414...
+[2019.02.13-13.25.37:526][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1414.BrickWorld_5x25_2_brick_4by4_1414
+[2019.02.13-13.25.37:539][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1415...
+[2019.02.13-13.25.37:598][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1415.BrickWorld_5x25_2_brick_4by4_1415
+[2019.02.13-13.25.37:611][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1416...
+[2019.02.13-13.25.37:667][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1416.BrickWorld_5x25_2_brick_4by4_1416
+[2019.02.13-13.25.37:680][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1417...
+[2019.02.13-13.25.37:734][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1417.BrickWorld_5x25_2_brick_4by4_1417
+[2019.02.13-13.25.37:746][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1418...
+[2019.02.13-13.25.37:800][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1418.BrickWorld_5x25_2_brick_4by4_1418
+[2019.02.13-13.25.37:814][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1419...
+[2019.02.13-13.25.37:871][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1419.BrickWorld_5x25_2_brick_4by4_1419
+[2019.02.13-13.25.37:885][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_142...
+[2019.02.13-13.25.37:941][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_142.BrickWorld_5x25_2_brick_4by4_142
+[2019.02.13-13.25.37:952][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1420...
+[2019.02.13-13.25.38:008][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1420.BrickWorld_5x25_2_brick_4by4_1420
+[2019.02.13-13.25.38:021][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1421...
+[2019.02.13-13.25.38:077][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1421.BrickWorld_5x25_2_brick_4by4_1421
+[2019.02.13-13.25.38:089][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1422...
+[2019.02.13-13.25.38:143][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1422.BrickWorld_5x25_2_brick_4by4_1422
+[2019.02.13-13.25.38:154][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1423...
+[2019.02.13-13.25.38:209][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1423.BrickWorld_5x25_2_brick_4by4_1423
+[2019.02.13-13.25.38:222][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1424...
+[2019.02.13-13.25.38:277][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1424.BrickWorld_5x25_2_brick_4by4_1424
+[2019.02.13-13.25.38:289][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1425...
+[2019.02.13-13.25.38:345][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1425.BrickWorld_5x25_2_brick_4by4_1425
+[2019.02.13-13.25.38:358][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1426...
+[2019.02.13-13.25.38:413][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1426.BrickWorld_5x25_2_brick_4by4_1426
+[2019.02.13-13.25.38:424][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1427...
+[2019.02.13-13.25.38:479][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1427.BrickWorld_5x25_2_brick_4by4_1427
+[2019.02.13-13.25.38:495][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1428...
+[2019.02.13-13.25.38:556][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1428.BrickWorld_5x25_2_brick_4by4_1428
+[2019.02.13-13.25.38:576][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1429...
+[2019.02.13-13.25.38:631][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1429.BrickWorld_5x25_2_brick_4by4_1429
+[2019.02.13-13.25.38:651][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_143...
+[2019.02.13-13.25.38:704][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_143.BrickWorld_5x25_2_brick_4by4_143
+[2019.02.13-13.25.38:718][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1430...
+[2019.02.13-13.25.38:774][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1430.BrickWorld_5x25_2_brick_4by4_1430
+[2019.02.13-13.25.38:787][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1431...
+[2019.02.13-13.25.38:843][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1431.BrickWorld_5x25_2_brick_4by4_1431
+[2019.02.13-13.25.38:855][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1432...
+[2019.02.13-13.25.38:911][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1432.BrickWorld_5x25_2_brick_4by4_1432
+[2019.02.13-13.25.38:923][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1433...
+[2019.02.13-13.25.38:979][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1433.BrickWorld_5x25_2_brick_4by4_1433
+[2019.02.13-13.25.38:991][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1434...
+[2019.02.13-13.25.39:048][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1434.BrickWorld_5x25_2_brick_4by4_1434
+[2019.02.13-13.25.39:058][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1435...
+[2019.02.13-13.25.39:114][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1435.BrickWorld_5x25_2_brick_4by4_1435
+[2019.02.13-13.25.39:129][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1436...
+[2019.02.13-13.25.39:187][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1436.BrickWorld_5x25_2_brick_4by4_1436
+[2019.02.13-13.25.39:197][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1437...
+[2019.02.13-13.25.39:253][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1437.BrickWorld_5x25_2_brick_4by4_1437
+[2019.02.13-13.25.39:264][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1438...
+[2019.02.13-13.25.39:320][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1438.BrickWorld_5x25_2_brick_4by4_1438
+[2019.02.13-13.25.39:333][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1439...
+[2019.02.13-13.25.39:390][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1439.BrickWorld_5x25_2_brick_4by4_1439
+[2019.02.13-13.25.39:402][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_144...
+[2019.02.13-13.25.39:458][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_144.BrickWorld_5x25_2_brick_4by4_144
+[2019.02.13-13.25.39:468][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1440...
+[2019.02.13-13.25.39:525][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1440.BrickWorld_5x25_2_brick_4by4_1440
+[2019.02.13-13.25.39:538][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1441...
+[2019.02.13-13.25.39:595][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1441.BrickWorld_5x25_2_brick_4by4_1441
+[2019.02.13-13.25.39:607][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1442...
+[2019.02.13-13.25.39:662][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1442.BrickWorld_5x25_2_brick_4by4_1442
+[2019.02.13-13.25.39:675][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1443...
+[2019.02.13-13.25.39:731][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1443.BrickWorld_5x25_2_brick_4by4_1443
+[2019.02.13-13.25.39:751][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1444...
+[2019.02.13-13.25.39:807][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1444.BrickWorld_5x25_2_brick_4by4_1444
+[2019.02.13-13.25.39:819][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1445...
+[2019.02.13-13.25.39:876][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1445.BrickWorld_5x25_2_brick_4by4_1445
+[2019.02.13-13.25.39:889][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1446...
+[2019.02.13-13.25.39:944][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1446.BrickWorld_5x25_2_brick_4by4_1446
+[2019.02.13-13.25.39:958][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1447...
+[2019.02.13-13.25.40:014][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1447.BrickWorld_5x25_2_brick_4by4_1447
+[2019.02.13-13.25.40:026][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1448...
+[2019.02.13-13.25.40:082][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1448.BrickWorld_5x25_2_brick_4by4_1448
+[2019.02.13-13.25.40:094][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1449...
+[2019.02.13-13.25.40:148][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1449.BrickWorld_5x25_2_brick_4by4_1449
+[2019.02.13-13.25.40:160][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_145...
+[2019.02.13-13.25.40:217][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_145.BrickWorld_5x25_2_brick_4by4_145
+[2019.02.13-13.25.40:229][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_1450...
+[2019.02.13-13.25.40:286][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_1450.BrickWorld_5x25_2_brick_4by4_1450
+[2019.02.13-13.25.40:299][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_146...
+[2019.02.13-13.25.40:354][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_146.BrickWorld_5x25_2_brick_4by4_146
+[2019.02.13-13.25.40:367][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_147...
+[2019.02.13-13.25.40:423][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_147.BrickWorld_5x25_2_brick_4by4_147
+[2019.02.13-13.25.40:435][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_148...
+[2019.02.13-13.25.40:492][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_148.BrickWorld_5x25_2_brick_4by4_148
+[2019.02.13-13.25.40:504][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_149...
+[2019.02.13-13.25.40:560][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_149.BrickWorld_5x25_2_brick_4by4_149
+[2019.02.13-13.25.40:572][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_15...
+[2019.02.13-13.25.40:628][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_15.BrickWorld_5x25_2_brick_4by4_15
+[2019.02.13-13.25.40:639][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_16...
+[2019.02.13-13.25.40:693][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_16.BrickWorld_5x25_2_brick_4by4_16
+[2019.02.13-13.25.40:705][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_17...
+[2019.02.13-13.25.40:760][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_17.BrickWorld_5x25_2_brick_4by4_17
+[2019.02.13-13.25.40:773][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_18...
+[2019.02.13-13.25.40:828][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_18.BrickWorld_5x25_2_brick_4by4_18
+[2019.02.13-13.25.40:840][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_19...
+[2019.02.13-13.25.40:895][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_19.BrickWorld_5x25_2_brick_4by4_19
+[2019.02.13-13.25.40:907][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_2...
+[2019.02.13-13.25.40:963][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_2.BrickWorld_5x25_2_brick_4by4_2
+[2019.02.13-13.25.40:975][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_20...
+[2019.02.13-13.25.41:031][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_20.BrickWorld_5x25_2_brick_4by4_20
+[2019.02.13-13.25.41:042][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_21...
+[2019.02.13-13.25.41:098][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_21.BrickWorld_5x25_2_brick_4by4_21
+[2019.02.13-13.25.41:109][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_22...
+[2019.02.13-13.25.41:164][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_22.BrickWorld_5x25_2_brick_4by4_22
+[2019.02.13-13.25.41:175][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_23...
+[2019.02.13-13.25.41:230][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_23.BrickWorld_5x25_2_brick_4by4_23
+[2019.02.13-13.25.41:240][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_24...
+[2019.02.13-13.25.41:294][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_24.BrickWorld_5x25_2_brick_4by4_24
+[2019.02.13-13.25.41:306][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_25...
+[2019.02.13-13.25.41:361][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_25.BrickWorld_5x25_2_brick_4by4_25
+[2019.02.13-13.25.41:375][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_26...
+[2019.02.13-13.25.41:431][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_26.BrickWorld_5x25_2_brick_4by4_26
+[2019.02.13-13.25.41:443][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_27...
+[2019.02.13-13.25.41:497][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_27.BrickWorld_5x25_2_brick_4by4_27
+[2019.02.13-13.25.41:508][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_28...
+[2019.02.13-13.25.41:563][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_28.BrickWorld_5x25_2_brick_4by4_28
+[2019.02.13-13.25.41:576][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_29...
+[2019.02.13-13.25.41:631][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_29.BrickWorld_5x25_2_brick_4by4_29
+[2019.02.13-13.25.41:643][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_3...
+[2019.02.13-13.25.41:699][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_3.BrickWorld_5x25_2_brick_4by4_3
+[2019.02.13-13.25.41:711][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_30...
+[2019.02.13-13.25.41:766][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_30.BrickWorld_5x25_2_brick_4by4_30
+[2019.02.13-13.25.41:781][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_31...
+[2019.02.13-13.25.41:837][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_31.BrickWorld_5x25_2_brick_4by4_31
+[2019.02.13-13.25.41:849][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_32...
+[2019.02.13-13.25.41:903][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_32.BrickWorld_5x25_2_brick_4by4_32
+[2019.02.13-13.25.41:917][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_33...
+[2019.02.13-13.25.41:974][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_33.BrickWorld_5x25_2_brick_4by4_33
+[2019.02.13-13.25.41:995][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_34...
+[2019.02.13-13.25.42:050][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_34.BrickWorld_5x25_2_brick_4by4_34
+[2019.02.13-13.25.42:071][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_35...
+[2019.02.13-13.25.42:127][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_35.BrickWorld_5x25_2_brick_4by4_35
+[2019.02.13-13.25.42:138][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_36...
+[2019.02.13-13.25.42:195][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_36.BrickWorld_5x25_2_brick_4by4_36
+[2019.02.13-13.25.42:209][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_37...
+[2019.02.13-13.25.42:265][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_37.BrickWorld_5x25_2_brick_4by4_37
+[2019.02.13-13.25.42:277][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_38...
+[2019.02.13-13.25.42:332][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_38.BrickWorld_5x25_2_brick_4by4_38
+[2019.02.13-13.25.42:344][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_39...
+[2019.02.13-13.25.42:401][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_39.BrickWorld_5x25_2_brick_4by4_39
+[2019.02.13-13.25.42:414][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_4...
+[2019.02.13-13.25.42:470][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_4.BrickWorld_5x25_2_brick_4by4_4
+[2019.02.13-13.25.42:482][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_40...
+[2019.02.13-13.25.42:538][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_40.BrickWorld_5x25_2_brick_4by4_40
+[2019.02.13-13.25.42:550][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_41...
+[2019.02.13-13.25.42:606][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_41.BrickWorld_5x25_2_brick_4by4_41
+[2019.02.13-13.25.42:620][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_42...
+[2019.02.13-13.25.42:676][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_42.BrickWorld_5x25_2_brick_4by4_42
+[2019.02.13-13.25.42:688][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_43...
+[2019.02.13-13.25.42:745][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_43.BrickWorld_5x25_2_brick_4by4_43
+[2019.02.13-13.25.42:756][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_44...
+[2019.02.13-13.25.42:810][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_44.BrickWorld_5x25_2_brick_4by4_44
+[2019.02.13-13.25.42:823][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_45...
+[2019.02.13-13.25.42:881][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_45.BrickWorld_5x25_2_brick_4by4_45
+[2019.02.13-13.25.42:893][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_46...
+[2019.02.13-13.25.42:951][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_46.BrickWorld_5x25_2_brick_4by4_46
+[2019.02.13-13.25.42:964][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_47...
+[2019.02.13-13.25.43:019][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_47.BrickWorld_5x25_2_brick_4by4_47
+[2019.02.13-13.25.43:033][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_48...
+[2019.02.13-13.25.43:089][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_48.BrickWorld_5x25_2_brick_4by4_48
+[2019.02.13-13.25.43:101][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_49...
+[2019.02.13-13.25.43:158][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_49.BrickWorld_5x25_2_brick_4by4_49
+[2019.02.13-13.25.43:170][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_5...
+[2019.02.13-13.25.43:225][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_5.BrickWorld_5x25_2_brick_4by4_5
+[2019.02.13-13.25.43:238][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_50...
+[2019.02.13-13.25.43:295][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_50.BrickWorld_5x25_2_brick_4by4_50
+[2019.02.13-13.25.43:307][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_51...
+[2019.02.13-13.25.43:360][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_51.BrickWorld_5x25_2_brick_4by4_51
+[2019.02.13-13.25.43:372][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_52...
+[2019.02.13-13.25.43:427][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_52.BrickWorld_5x25_2_brick_4by4_52
+[2019.02.13-13.25.43:439][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_53...
+[2019.02.13-13.25.43:496][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_53.BrickWorld_5x25_2_brick_4by4_53
+[2019.02.13-13.25.43:510][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_54...
+[2019.02.13-13.25.43:564][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_54.BrickWorld_5x25_2_brick_4by4_54
+[2019.02.13-13.25.43:576][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_55...
+[2019.02.13-13.25.43:632][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_55.BrickWorld_5x25_2_brick_4by4_55
+[2019.02.13-13.25.43:645][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_56...
+[2019.02.13-13.25.43:702][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_56.BrickWorld_5x25_2_brick_4by4_56
+[2019.02.13-13.25.43:721][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_57...
+[2019.02.13-13.25.43:777][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_57.BrickWorld_5x25_2_brick_4by4_57
+[2019.02.13-13.25.43:789][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_58...
+[2019.02.13-13.25.43:843][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_58.BrickWorld_5x25_2_brick_4by4_58
+[2019.02.13-13.25.43:857][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_59...
+[2019.02.13-13.25.43:915][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_59.BrickWorld_5x25_2_brick_4by4_59
+[2019.02.13-13.25.43:926][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_6...
+[2019.02.13-13.25.43:983][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_6.BrickWorld_5x25_2_brick_4by4_6
+[2019.02.13-13.25.43:996][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_60...
+[2019.02.13-13.25.44:054][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_60.BrickWorld_5x25_2_brick_4by4_60
+[2019.02.13-13.25.44:069][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_61...
+[2019.02.13-13.25.44:132][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_61.BrickWorld_5x25_2_brick_4by4_61
+[2019.02.13-13.25.44:145][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_62...
+[2019.02.13-13.25.44:201][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_62.BrickWorld_5x25_2_brick_4by4_62
+[2019.02.13-13.25.44:213][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_63...
+[2019.02.13-13.25.44:270][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_63.BrickWorld_5x25_2_brick_4by4_63
+[2019.02.13-13.25.44:282][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_64...
+[2019.02.13-13.25.44:337][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_64.BrickWorld_5x25_2_brick_4by4_64
+[2019.02.13-13.25.44:349][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_65...
+[2019.02.13-13.25.44:406][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_65.BrickWorld_5x25_2_brick_4by4_65
+[2019.02.13-13.25.44:417][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_66...
+[2019.02.13-13.25.44:472][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_66.BrickWorld_5x25_2_brick_4by4_66
+[2019.02.13-13.25.44:485][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_67...
+[2019.02.13-13.25.44:542][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_67.BrickWorld_5x25_2_brick_4by4_67
+[2019.02.13-13.25.44:554][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_68...
+[2019.02.13-13.25.44:609][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_68.BrickWorld_5x25_2_brick_4by4_68
+[2019.02.13-13.25.44:621][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_69...
+[2019.02.13-13.25.44:678][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_69.BrickWorld_5x25_2_brick_4by4_69
+[2019.02.13-13.25.44:689][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_7...
+[2019.02.13-13.25.44:744][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_7.BrickWorld_5x25_2_brick_4by4_7
+[2019.02.13-13.25.44:756][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_70...
+[2019.02.13-13.25.44:814][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_70.BrickWorld_5x25_2_brick_4by4_70
+[2019.02.13-13.25.44:825][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_71...
+[2019.02.13-13.25.44:881][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_71.BrickWorld_5x25_2_brick_4by4_71
+[2019.02.13-13.25.44:894][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_72...
+[2019.02.13-13.25.44:950][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_72.BrickWorld_5x25_2_brick_4by4_72
+[2019.02.13-13.25.44:962][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_73...
+[2019.02.13-13.25.45:017][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_73.BrickWorld_5x25_2_brick_4by4_73
+[2019.02.13-13.25.45:028][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_74...
+[2019.02.13-13.25.45:082][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_74.BrickWorld_5x25_2_brick_4by4_74
+[2019.02.13-13.25.45:095][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_75...
+[2019.02.13-13.25.45:150][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_75.BrickWorld_5x25_2_brick_4by4_75
+[2019.02.13-13.25.45:162][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_76...
+[2019.02.13-13.25.45:218][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_76.BrickWorld_5x25_2_brick_4by4_76
+[2019.02.13-13.25.45:229][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_77...
+[2019.02.13-13.25.45:284][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_77.BrickWorld_5x25_2_brick_4by4_77
+[2019.02.13-13.25.45:296][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_78...
+[2019.02.13-13.25.45:353][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_78.BrickWorld_5x25_2_brick_4by4_78
+[2019.02.13-13.25.45:364][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_79...
+[2019.02.13-13.25.45:419][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_79.BrickWorld_5x25_2_brick_4by4_79
+[2019.02.13-13.25.45:429][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_8...
+[2019.02.13-13.25.45:484][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_8.BrickWorld_5x25_2_brick_4by4_8
+[2019.02.13-13.25.45:496][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_80...
+[2019.02.13-13.25.45:552][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_80.BrickWorld_5x25_2_brick_4by4_80
+[2019.02.13-13.25.45:563][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_81...
+[2019.02.13-13.25.45:618][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_81.BrickWorld_5x25_2_brick_4by4_81
+[2019.02.13-13.25.45:629][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_82...
+[2019.02.13-13.25.45:685][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_82.BrickWorld_5x25_2_brick_4by4_82
+[2019.02.13-13.25.45:697][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_83...
+[2019.02.13-13.25.45:752][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_83.BrickWorld_5x25_2_brick_4by4_83
+[2019.02.13-13.25.45:764][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_84...
+[2019.02.13-13.25.45:820][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_84.BrickWorld_5x25_2_brick_4by4_84
+[2019.02.13-13.25.45:831][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_85...
+[2019.02.13-13.25.45:886][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_85.BrickWorld_5x25_2_brick_4by4_85
+[2019.02.13-13.25.45:898][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_86...
+[2019.02.13-13.25.45:953][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_86.BrickWorld_5x25_2_brick_4by4_86
+[2019.02.13-13.25.45:963][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_87...
+[2019.02.13-13.25.46:019][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_87.BrickWorld_5x25_2_brick_4by4_87
+[2019.02.13-13.25.46:031][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_88...
+[2019.02.13-13.25.46:085][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_88.BrickWorld_5x25_2_brick_4by4_88
+[2019.02.13-13.25.46:099][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_89...
+[2019.02.13-13.25.46:155][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_89.BrickWorld_5x25_2_brick_4by4_89
+[2019.02.13-13.25.46:167][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_9...
+[2019.02.13-13.25.46:221][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_9.BrickWorld_5x25_2_brick_4by4_9
+[2019.02.13-13.25.46:234][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_90...
+[2019.02.13-13.25.46:289][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_90.BrickWorld_5x25_2_brick_4by4_90
+[2019.02.13-13.25.46:302][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_91...
+[2019.02.13-13.25.46:358][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_91.BrickWorld_5x25_2_brick_4by4_91
+[2019.02.13-13.25.46:368][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_92...
+[2019.02.13-13.25.46:424][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_92.BrickWorld_5x25_2_brick_4by4_92
+[2019.02.13-13.25.46:434][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_93...
+[2019.02.13-13.25.46:490][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_93.BrickWorld_5x25_2_brick_4by4_93
+[2019.02.13-13.25.46:503][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_94...
+[2019.02.13-13.25.46:557][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_94.BrickWorld_5x25_2_brick_4by4_94
+[2019.02.13-13.25.46:570][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_95...
+[2019.02.13-13.25.46:624][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_95.BrickWorld_5x25_2_brick_4by4_95
+[2019.02.13-13.25.46:634][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_96...
+[2019.02.13-13.25.46:688][523]LogStaticMesh: Built static mesh [0.05s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_96.BrickWorld_5x25_2_brick_4by4_96
+[2019.02.13-13.25.46:702][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_97...
+[2019.02.13-13.25.46:758][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_97.BrickWorld_5x25_2_brick_4by4_97
+[2019.02.13-13.25.46:770][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_98...
+[2019.02.13-13.25.46:826][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_98.BrickWorld_5x25_2_brick_4by4_98
+[2019.02.13-13.25.46:837][523]LogStaticMesh: Building static mesh BrickWorld_5x25_2_brick_4by4_99...
+[2019.02.13-13.25.46:893][523]LogStaticMesh: Built static mesh [0.06s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_brick_4by4_99.BrickWorld_5x25_2_brick_4by4_99
+[2019.02.13-13.25.46:924][523]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.02.13-13.25.49:921][784]LogSlate: Window 'Message Log' being destroyed
+[2019.02.13-13.25.49:925][784]LogSlate: Window 'Message Log' being destroyed
+[2019.02.13-13.26.28:193][598]LogSlate: Window 'Delete Assets' being destroyed
+[2019.02.13-13.26.38:284][636]LogActorFactory: Actor Factory created BrickWorld_5x25
+[2019.02.13-13.26.41:050][951]LogActorFactory: Actor Factory created BrickWorld_5x25
+[2019.02.13-13.26.51:370][ 71]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-13.27.23:609][824]Cmd: DELETE
+[2019.02.13-13.27.23:609][824]Cmd: ACTOR DELETE
+[2019.02.13-13.27.23:614][824]LogEditorActor: Deleted Actor: Brush
+[2019.02.13-13.27.23:637][824]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2019.02.13-13.28.38:701][807]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.13-13.28.40:983][807]LogSavePackage: Save=1590.19ms
+[2019.02.13-13.28.40:983][807]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/FastLevel_Auto196A617C844B60E6EEC583C874F7842AB.tmp' to 'F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Levels/FastLevel/FastLevel_Auto1.umap'
+[2019.02.13-13.28.40:985][807]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Levels/FastLevel/FastLevel_Auto1.umap
+[2019.02.13-13.28.40:992][807]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dreamland/Levels/FastLevel/FastLevel' took 1.704
+[2019.02.13-13.28.40:992][807]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.704
+[2019.02.13-13.28.41:059][807]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25] ([1] browsable assets)...
+[2019.02.13-13.28.41:071][807]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25.BrickWorld_5x25]
+[2019.02.13-13.28.41:071][807]OBJ SavePackage: Finished generating thumbnails for package [/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25]
+[2019.02.13-13.28.41:263][807]LogSavePackage: Save=187.24ms
+[2019.02.13-13.28.41:263][807]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/BrickWorld_5x25_Auto10C8A35A64F96C1BC2955339D5FC62611.tmp' to 'F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_Auto1.uasset'
+[2019.02.13-13.28.41:265][807]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_Auto1.uasset
+[2019.02.13-13.28.41:265][807]LogFileHelpers: Auto-saving content packages took 0.270
+[2019.02.13-13.40.19:029][406]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Itch/assetforge/BrickWorld_5x25_2.obj)
+[2019.02.13-13.40.19:060][406]LogFbx: Loading FBX Scene from ../../../../../Itch/assetforge/BrickWorld_5x25_2.obj
+[2019.02.13-13.40.20:176][406]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.13-13.40.24:048][406]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.02.13-13.40.24:103][406]LogFbx: Loading FBX Scene from ../../../../../Itch/assetforge/BrickWorld_5x25_2.obj
+[2019.02.13-13.40.25:228][406]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.13-13.40.25:397][406]LogStaticMesh: Building static mesh BrickWorld_5x25_2...
+[2019.02.13-13.40.50:809][406]LogStaticMesh: Built static mesh [25.41s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2.BrickWorld_5x25_2
+[2019.02.13-13.40.51:178][406]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.02.13-13.40.53:921][701]LogSlate: Window 'Message Log' being destroyed
+[2019.02.13-13.40.53:925][701]LogSlate: Window 'Message Log' being destroyed
+[2019.02.13-13.41.00:431][452]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.13-13.41.00:455][452]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dreamland/Levels/FastLevel/FastLevel' took 0.012
+[2019.02.13-13.41.00:456][452]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2] ([1] browsable assets)...
+[2019.02.13-13.41.00:468][452]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2.BrickWorld_5x25_2]
+[2019.02.13-13.41.00:468][452]OBJ SavePackage: Finished generating thumbnails for package [/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2]
+[2019.02.13-13.41.00:735][452]LogSavePackage: Save=200.44ms
+[2019.02.13-13.41.00:735][452]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/BrickWorld_5x25_2_Auto2935C5F9345E8D9B2B76A3FA91AD6FB87.tmp' to 'F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_Auto2.uasset'
+[2019.02.13-13.41.00:736][452]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_Auto2.uasset
+[2019.02.13-13.41.00:736][452]LogFileHelpers: Auto-saving content packages took 0.280
+[2019.02.13-13.41.07:697][239]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-13.41.07:857][256]LogActorFactory: Actor Factory created BrickWorld_5x25
+[2019.02.13-13.41.11:030][606]LogActorFactory: Actor Factory created BrickWorld_5x25
+[2019.02.13-13.41.11:399][642]Cmd: SELECT NONE
+[2019.02.13-13.41.12:267][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrickWorld_5x26)
+[2019.02.13-13.41.12:901][814]Cmd: TRANSACTION UNDO
+[2019.02.13-13.41.12:901][814]LogEditorTransaction: Undo Clicking on Actors
+[2019.02.13-13.41.13:413][871]Cmd: TRANSACTION UNDO
+[2019.02.13-13.41.13:413][871]LogEditorTransaction: Undo Select None
+[2019.02.13-13.41.13:939][927]Cmd: TRANSACTION UNDO
+[2019.02.13-13.41.13:939][927]LogEditorTransaction: Undo Create Actors
+[2019.02.13-13.41.15:141][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrickWorld_5x25)
+[2019.02.13-13.41.16:534][199]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-13.41.23:585][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrickWorld_5x25)
+[2019.02.13-13.41.24:521][141]Cmd: EDIT COPY
+[2019.02.13-13.41.24:773][170]Cmd: EDIT PASTE
+[2019.02.13-13.41.41:070][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrickWorld_5x26)
+[2019.02.13-13.41.49:163][986]Cmd: DELETE
+[2019.02.13-13.41.49:163][986]Cmd: ACTOR DELETE
+[2019.02.13-13.41.49:170][986]LogEditorActor: Deleted Actor: Brush
+[2019.02.13-13.41.49:193][986]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2019.02.13-13.41.53:162][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-13.41.53:315][462]LogActorFactory: Actor Factory created BrickWorld_5x25_2
+[2019.02.13-13.41.54:264][573]LogActorFactory: Actor Factory created BrickWorld_5x25_2
+[2019.02.13-13.41.56:719][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-13.42.14:481][825]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-13.42.19:226][335]LogSlate: Took 0.262832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.13-13.43.28:789][327]Cmd: EDIT COPY
+[2019.02.13-13.43.29:066][360]Cmd: EDIT PASTE
+[2019.02.13-13.43.31:927][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-13.43.42:217][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrickWorld_5x25_3)
+[2019.02.13-13.43.42:722][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrickWorld_5x25_3)
+[2019.02.13-13.43.43:176][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrickWorld_5x25_2)
+[2019.02.13-13.43.44:070][ 54]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrickWorld_5x25_2)
+[2019.02.13-13.43.44:508][103]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrickWorld_5x25_2)
+[2019.02.13-13.43.45:157][178]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrickWorld_5x25_3)
+[2019.02.13-13.43.45:861][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrickWorld_5x25_3)
+[2019.02.13-13.43.48:414][556]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-13.43.50:996][829]LogEditorActor: Deleted Actor: Brush
+[2019.02.13-13.43.51:016][829]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.02.13-13.44.00:026][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BrickWorld_5x25_3)
+[2019.02.13-13.44.20:467][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-13.44.36:751][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-13.51.08:527][920]LogSavePackage: Save=1723.11ms
+[2019.02.13-13.51.08:527][920]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/FastLevel_Auto3AC25CB904DBFC399012822BA218E3A89.tmp' to 'F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Levels/FastLevel/FastLevel_Auto3.umap'
+[2019.02.13-13.51.08:530][920]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Levels/FastLevel/FastLevel_Auto3.umap
+[2019.02.13-13.51.08:539][920]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dreamland/Levels/FastLevel/FastLevel' took 1.777
+[2019.02.13-13.51.08:539][920]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.777
+[2019.02.13-13.55.38:348][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.04.50:219][521]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.04.50:881][521]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.02.13-14.04.50:881][521]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.13-14.04.50:881][521]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.13-14.04.52:746][641]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.04.53:632][641]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.04.53:641][641]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.04.53:683][641]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.13-14.04.54:764][641]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.13-14.04.54:764][641]LogSlate: Took 0.044140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.13-14.04.54:987][642]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.13-14.04.55:193][644]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.13-14.04.55:387][645]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.13-14.04.55:550][648]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.13-14.04.55:700][650]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.13-14.04.55:716][651]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.02.13-14.04.55:773][653]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.13-14.04.55:880][654]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.13-14.04.55:898][655]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.13-14.04.56:071][656]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.13-14.04.56:213][658]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.13-14.04.56:231][659]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.13-14.04.56:404][661]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.13-14.04.56:404][661]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.13-14.04.56:571][664]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.13-14.04.56:666][673]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.13-14.04.56:973][699]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.13-14.04.57:032][700]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.13-14.04.57:131][701]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.13-14.04.57:169][702]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.13-14.04.57:170][702]MaterialEditorStats: Base pass shader: 101 instructions
+[2019.02.13-14.04.57:170][702]MaterialEditorStats: Base pass shader with Surface Lightmap: 118 instructions
+[2019.02.13-14.04.57:170][702]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2019.02.13-14.04.57:170][702]MaterialEditorStats: Vertex shader: 34 instructions
+[2019.02.13-14.04.57:170][702]MaterialEditorStats: Texture samplers: 3/16
+[2019.02.13-14.05.01:785][ 92]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.05.01:800][ 92]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.13-14.05.01:800][ 92]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.13-14.05.01:800][ 92]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.13-14.05.01:800][ 92]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.13-14.05.01:830][ 92]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.13-14.05.01:857][ 92]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.05.01:874][ 92]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.13-14.05.01:901][ 92]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.05.02:003][ 93]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.13-14.05.02:003][ 93]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.13-14.05.02:051][ 95]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.13-14.05.02:189][ 96]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.13-14.05.02:239][ 97]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.13-14.05.02:265][ 98]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.02.13-14.05.02:406][100]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.13-14.05.02:424][101]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.13-14.05.02:472][103]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.13-14.05.02:584][104]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.13-14.05.02:584][104]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.13-14.05.02:631][106]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.13-14.05.02:877][108]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.13-14.05.02:920][109]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.13-14.05.02:952][110]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.13-14.05.03:108][111]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.13-14.05.03:203][112]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.13-14.05.03:270][113]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.13-14.05.03:373][114]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.13-14.05.03:446][115]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.13-14.05.03:451][115]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.05.03:466][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.13-14.05.03:496][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.13-14.05.03:523][115]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.05.03:540][115]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.13-14.05.03:540][115]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.13-14.05.03:568][115]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.05.03:634][117]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.13-14.05.03:710][118]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.13-14.05.03:764][119]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.13-14.05.03:875][121]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.13-14.05.03:906][122]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.13-14.05.03:981][123]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.02.13-14.05.04:071][124]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.13-14.05.04:091][125]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.13-14.05.04:165][126]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.13-14.05.04:232][126]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.13-14.05.04:274][128]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.13-14.05.04:331][129]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.13-14.05.04:550][131]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.13-14.05.04:611][132]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.13-14.05.04:666][134]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.13-14.05.04:822][135]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.13-14.05.04:906][136]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.13-14.05.05:007][137]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.13-14.05.05:117][138]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.13-14.05.05:227][139]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.13-14.05.05:568][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.13-14.05.05:582][160]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.13-14.05.05:582][160]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.13-14.05.05:595][160]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.05.05:602][160]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.13-14.05.05:611][160]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.13-14.05.05:639][160]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.05.05:648][160]LogSlate: Window 'Color Picker' being destroyed
+[2019.02.13-14.05.05:816][163]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.13-14.05.05:860][164]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.13-14.05.05:885][165]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.13-14.05.06:055][167]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.13-14.05.06:090][168]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.13-14.05.06:117][169]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.02.13-14.05.06:272][170]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.13-14.05.06:286][171]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.13-14.05.06:317][172]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.13-14.05.06:423][173]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.13-14.05.06:442][174]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.13-14.05.06:473][175]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.13-14.05.06:726][176]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.13-14.05.06:774][177]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.13-14.05.06:792][178]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.13-14.05.06:958][179]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.13-14.05.07:064][181]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.13-14.05.07:140][183]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.13-14.05.07:248][184]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.13-14.05.07:321][185]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.13-14.05.07:373][190]LogMaterialEditor: Saving and Compiling material _defaultMat_2
+[2019.02.13-14.05.07:881][190]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.05.07:912][190]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.13-14.05.07:912][190]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.13-14.05.07:912][190]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.13-14.05.07:933][190]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.05.07:963][190]LogMaterial: Missing cached shader map for material _defaultMat_2, compiling. 
+[2019.02.13-14.05.07:992][190]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy _defaultMat_2, compiling. 
+[2019.02.13-14.05.09:291][190]LogShaderCompilers: Display: Shaders left to compile 47
+[2019.02.13-14.05.09:291][190]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.02.13-14.05.09:291][190]LogShaderCompilers: Display: Shaders left to compile 45
+[2019.02.13-14.05.09:291][190]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.02.13-14.05.09:291][190]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.02.13-14.05.09:291][190]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.02.13-14.05.09:291][190]LogShaderCompilers: Display: Shaders left to compile 41
+[2019.02.13-14.05.09:291][190]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.02.13-14.05.09:291][190]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.02.13-14.05.09:292][190]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.02.13-14.05.09:292][190]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.02.13-14.05.09:292][190]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.02.13-14.05.09:292][190]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.02.13-14.05.09:292][190]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.02.13-14.05.09:292][190]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.02.13-14.05.09:292][190]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.02.13-14.05.09:292][190]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.02.13-14.05.09:292][190]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.13-14.05.09:292][190]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.13-14.05.09:293][190]TextureStreamingBuild: Display: Compiling optional shaders took 1.307 seconds.
+[2019.02.13-14.05.11:442][190]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.13-14.05.11:542][190]LogSavePackage: Save=64.03ms
+[2019.02.13-14.05.11:542][190]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/_defaultMat_25A966EF341830CE58F8E48AE38FF05E5.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Special/_defaultMat_2.uasset'
+[2019.02.13-14.05.11:551][190]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Special/_defaultMat_2.uasset
+[2019.02.13-14.05.11:556][190]MaterialEditorStats: Base pass shader: 101 instructions
+[2019.02.13-14.05.11:556][190]MaterialEditorStats: Base pass shader with Surface Lightmap: 118 instructions
+[2019.02.13-14.05.11:556][190]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2019.02.13-14.05.11:556][190]MaterialEditorStats: Vertex shader: 34 instructions
+[2019.02.13-14.05.11:556][190]MaterialEditorStats: Texture samplers: 3/16
+[2019.02.13-14.05.25:789][613]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../Itch/assetforge/BrickWorld_Disappearing.model.obj)
+[2019.02.13-14.05.25:797][613]LogFbx: Loading FBX Scene from ../../../../../Itch/assetforge/BrickWorld_Disappearing.model.obj
+[2019.02.13-14.05.25:824][613]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.13-14.05.35:082][613]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.02.13-14.05.35:419][613]LogFbx: Loading FBX Scene from ../../../../../Itch/assetforge/BrickWorld_Disappearing.model.obj
+[2019.02.13-14.05.35:443][613]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.13-14.05.35:449][613]LogStaticMesh: Building static mesh BrickWorld_Disappearing_model...
+[2019.02.13-14.05.35:823][613]LogStaticMesh: Built static mesh [0.37s] /Game/Dreamland/Meshes/FastWorld/Platforms/Special/BrickWorld_Disappearing_model.BrickWorld_Disappearing_model
+[2019.02.13-14.05.35:846][613]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.02.13-14.05.37:467][798]LogSlate: Window 'Message Log' being destroyed
+[2019.02.13-14.05.37:471][798]LogSlate: Window 'Message Log' being destroyed
+[2019.02.13-14.05.38:977][958]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dreamland/Levels/FastLevel/FastLevel' took 0.012
+[2019.02.13-14.05.39:035][958]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Dreamland/Meshes/FastWorld/Platforms/Special/BrickWorld_Disappearing_model] ([1] browsable assets)...
+[2019.02.13-14.05.39:045][958]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Dreamland/Meshes/FastWorld/Platforms/Special/BrickWorld_Disappearing_model.BrickWorld_Disappearing_model]
+[2019.02.13-14.05.39:045][958]OBJ SavePackage: Finished generating thumbnails for package [/Game/Dreamland/Meshes/FastWorld/Platforms/Special/BrickWorld_Disappearing_model]
+[2019.02.13-14.05.39:123][958]LogSavePackage: Save=73.16ms
+[2019.02.13-14.05.39:123][958]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/BrickWorld_Disappearing_model_Au3916CDFB40EA7FCBF505B3ABC4AB0FB0.tmp' to 'F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Meshes/FastWorld/Platforms/Special/BrickWorld_Disappearing_model_Auto4.uasset'
+[2019.02.13-14.05.39:125][958]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Meshes/FastWorld/Platforms/Special/BrickWorld_Disappearing_model_Auto4.uasset
+[2019.02.13-14.05.39:125][958]LogFileHelpers: Auto-saving content packages took 0.147
+[2019.02.13-14.05.43:410][395]LogRenderer: Reallocating scene render targets to support 1328x808 Format 10 NumSamples 1 (Frame:1).
+[2019.02.13-14.05.52:768][195]LogSavePackage: Save=80.55ms
+[2019.02.13-14.05.52:768][195]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/BrickWorld_Disappearing_model0656503846269BC9A0B8509652BD21AA.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Special/BrickWorld_Disappearing_model.uasset'
+[2019.02.13-14.05.52:787][195]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Special/BrickWorld_Disappearing_model.uasset
+[2019.02.13-14.05.58:191][769]LogEditorViewport: Clicking on Actor (LMB): FallingPlatforms_C (FallingPlatforms7)
+[2019.02.13-14.06.00:870][ 73]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.06.10:395][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.06.32:888][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.06.34:377][683]LogEditorViewport: Clicking on Actor (LMB): FallingPlatforms_C (FallingPlatforms8)
+[2019.02.13-14.06.35:148][770]LogEditorViewport: Clicking on Actor (LMB): FallingPlatforms_C (FallingPlatforms7)
+[2019.02.13-14.06.36:849][966]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.06.41:395][490]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.02.13-14.06.41:770][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.06.43:904][777]LogEditorViewport: Clicking on Actor (LMB): FallingPlatforms_C (FallingPlatforms7)
+[2019.02.13-14.06.45:644][977]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.13-14.06.47:846][240]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.13-14.06.48:344][240]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.02.13-14.06.48:623][240]LogUObjectGlobals: Created PersistentFrame Addr=0x000001eab948dbe0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.02.13-14.06.48:624][240]LogUObjectGlobals: Created PersistentFrame Addr=0x000001eab948dbd8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.02.13-14.06.57:555][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.07.24:000][802]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.07.29:769][234]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.07.50:564][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.07.56:606][296]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.08.02:114][709]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.08.08:406][189]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.08.08:493][197]BlueprintLog: New page: Compile FallingPlatforms
+[2019.02.13-14.08.08:502][197]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ea66390480, Size=216
+[2019.02.13-14.08.08:502][197]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ead6752a20, Size=216, Default__FallingPlatforms_C Function /Engine/Transient.REINST_FallingPlatforms_C_28:ExecuteUbergraph_FallingPlatforms
+[2019.02.13-14.08.08:504][197]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ead4224560, Size=216, Default__FallingPlatforms_C Function /Game/Dreamland/Blueprints/Platforms/FallingPlatforms.FallingPlatforms_C:ExecuteUbergraph_FallingPlatforms
+[2019.02.13-14.08.12:718][397]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dreamland/Blueprints/Platforms/FallingPlatforms" FILE="F:/Project/Dreamland/Content/Dreamland/Blueprints/Platforms/FallingPlatforms.uasset" SILENT=true
+[2019.02.13-14.08.12:909][397]LogSavePackage: Save=110.51ms
+[2019.02.13-14.08.12:910][397]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/FallingPlatformsE83A5705466334F73771309C8428A362.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Blueprints/Platforms/FallingPlatforms.uasset'
+[2019.02.13-14.08.12:933][397]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Blueprints/Platforms/FallingPlatforms.uasset
+[2019.02.13-14.08.14:265][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.08.18:815][987]LogEditorViewport: Clicking on Actor (LMB): FallingPlatforms_C (FallingPlatforms7)
+[2019.02.13-14.08.19:682][ 88]Cmd: DELETE
+[2019.02.13-14.08.19:683][ 88]Cmd: ACTOR DELETE
+[2019.02.13-14.08.19:689][ 88]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.19:708][ 88]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ead6752a20, Size=216
+[2019.02.13-14.08.19:708][ 88]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.02.13-14.08.20:221][149]LogEditorViewport: Clicking on Actor (LMB): FallingPlatforms_C (FallingPlatforms8)
+[2019.02.13-14.08.23:401][516]Cmd: DELETE
+[2019.02.13-14.08.23:401][516]Cmd: ACTOR DELETE
+[2019.02.13-14.08.23:407][516]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.23:408][516]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.23:408][516]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.23:428][516]LogEditorActor: Deleted 3 Actors (0.027 secs)
+[2019.02.13-14.08.26:688][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.08.29:503][234]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.29:504][234]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.29:504][234]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.29:505][234]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.29:505][234]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.29:506][234]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.29:506][234]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.29:507][234]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.29:507][234]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.29:507][234]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.29:508][234]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.29:508][234]LogEditorActor: Deleted Actor: FallingPlatforms_C
+[2019.02.13-14.08.29:528][234]LogEditorActor: Deleted 12 Actors (0.033 secs)
+[2019.02.13-14.09.05:072][296]Cmd: EDIT COPY
+[2019.02.13-14.09.05:896][392]Cmd: EDIT PASTE
+[2019.02.13-14.09.12:329][127]Cmd: EDIT COPY
+[2019.02.13-14.09.12:676][167]Cmd: EDIT PASTE
+[2019.02.13-14.09.17:174][696]Cmd: EDIT COPY
+[2019.02.13-14.09.17:404][723]Cmd: EDIT PASTE
+[2019.02.13-14.09.24:843][586]Cmd: EDIT COPY
+[2019.02.13-14.09.25:096][612]Cmd: EDIT PASTE
+[2019.02.13-14.09.28:099][953]Cmd: EDIT COPY
+[2019.02.13-14.09.28:304][977]Cmd: EDIT PASTE
+[2019.02.13-14.09.39:605][317]Cmd: EDIT COPY
+[2019.02.13-14.09.39:842][344]Cmd: EDIT PASTE
+[2019.02.13-14.09.52:459][821]Cmd: EDIT COPY
+[2019.02.13-14.09.52:671][846]Cmd: EDIT PASTE
+[2019.02.13-14.10.03:024][ 39]LogEditorViewport: Clicking on Actor (LMB): FallingPlatforms_C (FallingPlatforms7)
+[2019.02.13-14.10.13:439][236]LogEditorViewport: Clicking on Actor (LMB): FallingPlatforms_C (FallingPlatforms7)
+[2019.02.13-14.10.13:854][283]LogEditorViewport: Clicking on Actor (LMB): FallingPlatforms_C (FallingPlatforms8)
+[2019.02.13-14.10.29:442][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.10.34:597][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dreamland/Levels/FastLevel/FastLevel" FILE="F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.13-14.10.36:101][705]LogSavePackage: Save=1434.06ms
+[2019.02.13-14.10.36:101][705]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/FastLevel3D35D6614FCAD46E1FDA0B9E2A076776.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel.umap'
+[2019.02.13-14.10.36:195][705]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel.umap
+[2019.02.13-14.10.36:234][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dreamland/Levels/FastLevel/FastLevel_BuiltData" FILE="F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel_BuiltData.uasset" SILENT=true
+[2019.02.13-14.10.36:500][705]LogSavePackage: Save=207.18ms
+[2019.02.13-14.10.36:500][705]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/FastLevel_BuiltData66ECB39241C6926BF81DDA92FF06E959.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel_BuiltData.uasset'
+[2019.02.13-14.10.36:503][705]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel_BuiltData.uasset
+[2019.02.13-14.10.37:828][860]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.13-14.10.37:849][860]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.13-14.10.37:850][860]PIE: New page: PIE session: FastLevel (13 Feb 2019 14:10:37)
+[2019.02.13-14.10.37:850][860]LogPlayLevel: Creating play world package: /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel
+[2019.02.13-14.10.37:864][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014471s)
+[2019.02.13-14.10.37:865][860]LogAIModule: Creating AISystem for world FastLevel
+[2019.02.13-14.10.37:865][860]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2019.02.13-14.10.37:865][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dreamland/Levels/FastLevel/FastLevel.FastLevel to /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel (0.015323s)
+[2019.02.13-14.10.37:907][860]LogInit: XAudio2 using 'Speakers (Elgato Sound Capture)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.13-14.10.37:914][860]LogInit: FAudioDevice initialized.
+[2019.02.13-14.10.37:990][860]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.13-14.10.38:202][860]LogWorld: Bringing World /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel up for play (max tick rate 0) at 2019.02.13-14.10.38
+[2019.02.13-14.10.38:203][860]LogWorld: Bringing up level for play took: 0.006710
+[2019.02.13-14.10.38:205][860]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2019.02.13-14.10.38:208][860]PIE: Play in editor start time for /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel 0.725
+[2019.02.13-14.12.12:330][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.12.24:811][481]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.12.57:198][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.13.05:029][121]Cmd: EDIT COPY
+[2019.02.13-14.13.05:484][175]Cmd: EDIT PASTE
+[2019.02.13-14.13.13:489][114]Cmd: EDIT COPY
+[2019.02.13-14.13.13:735][142]Cmd: EDIT PASTE
+[2019.02.13-14.13.18:380][687]Cmd: EDIT COPY
+[2019.02.13-14.13.18:622][715]Cmd: EDIT PASTE
+[2019.02.13-14.13.23:984][344]Cmd: EDIT COPY
+[2019.02.13-14.13.24:217][371]Cmd: EDIT PASTE
+[2019.02.13-14.13.27:002][689]Cmd: EDIT COPY
+[2019.02.13-14.13.27:214][713]Cmd: EDIT PASTE
+[2019.02.13-14.13.32:960][382]Cmd: EDIT COPY
+[2019.02.13-14.13.33:280][419]Cmd: EDIT PASTE
+[2019.02.13-14.13.41:320][349]Cmd: EDIT COPY
+[2019.02.13-14.13.41:554][368]Cmd: EDIT PASTE
+[2019.02.13-14.13.45:714][851]Cmd: EDIT COPY
+[2019.02.13-14.13.45:955][879]Cmd: EDIT PASTE
+[2019.02.13-14.13.50:739][433]Cmd: EDIT COPY
+[2019.02.13-14.13.50:971][459]Cmd: EDIT PASTE
+[2019.02.13-14.13.54:454][865]Cmd: EDIT COPY
+[2019.02.13-14.13.54:692][893]Cmd: EDIT PASTE
+[2019.02.13-14.14.00:645][593]Cmd: EDIT COPY
+[2019.02.13-14.14.00:849][616]Cmd: EDIT PASTE
+[2019.02.13-14.14.07:769][416]LogEditorViewport: Clicking on Actor (LMB): FallingPlatforms_C (FallingPlatforms18)
+[2019.02.13-14.14.17:820][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.14.53:315][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.15.01:782][619]LogEditorViewport: Clicking on Actor (LMB): FallingPlatforms_C (FallingPlatforms21)
+[2019.02.13-14.15.02:876][747]Cmd: EDIT COPY
+[2019.02.13-14.15.03:164][781]Cmd: EDIT PASTE
+[2019.02.13-14.15.06:754][200]Cmd: EDIT COPY
+[2019.02.13-14.15.06:983][227]Cmd: EDIT PASTE
+[2019.02.13-14.15.14:559][115]Cmd: EDIT COPY
+[2019.02.13-14.15.14:763][139]Cmd: EDIT PASTE
+[2019.02.13-14.15.31:030][ 57]Cmd: EDIT COPY
+[2019.02.13-14.15.31:259][ 83]Cmd: EDIT PASTE
+[2019.02.13-14.15.35:870][620]Cmd: EDIT COPY
+[2019.02.13-14.15.36:078][643]Cmd: EDIT PASTE
+[2019.02.13-14.15.43:887][534]Cmd: EDIT COPY
+[2019.02.13-14.15.44:099][559]Cmd: EDIT PASTE
+[2019.02.13-14.15.57:077][ 41]Cmd: EDIT COPY
+[2019.02.13-14.15.57:265][ 62]Cmd: EDIT PASTE
+[2019.02.13-14.16.01:328][534]Cmd: EDIT COPY
+[2019.02.13-14.16.01:540][558]Cmd: EDIT PASTE
+[2019.02.13-14.16.04:656][920]Cmd: EDIT COPY
+[2019.02.13-14.16.04:884][946]Cmd: EDIT PASTE
+[2019.02.13-14.16.10:428][579]Cmd: EDIT COPY
+[2019.02.13-14.16.10:596][597]Cmd: EDIT PASTE
+[2019.02.13-14.16.14:527][ 56]LogEditorViewport: Clicking on Actor (LMB): FallingPlatforms_C (FallingPlatforms30)
+[2019.02.13-14.16.17:231][372]Cmd: EDIT PASTE
+[2019.02.13-14.16.27:444][575]LogEditorViewport: Clicking on Actor (LMB): FallingPlatforms_C (FallingPlatforms30)
+[2019.02.13-14.16.35:912][532]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.16.35:989][541]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.13-14.16.36:009][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.13-14.16.36:009][541]PIE: New page: PIE session: FastLevel (13 Feb 2019 14:16:36)
+[2019.02.13-14.16.36:009][541]LogPlayLevel: Creating play world package: /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel
+[2019.02.13-14.16.36:027][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017455s)
+[2019.02.13-14.16.36:027][541]LogAIModule: Creating AISystem for world FastLevel
+[2019.02.13-14.16.36:028][541]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2019.02.13-14.16.36:028][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dreamland/Levels/FastLevel/FastLevel.FastLevel to /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel (0.018389s)
+[2019.02.13-14.16.36:084][541]LogInit: XAudio2 using 'Speakers (Elgato Sound Capture)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.13-14.16.36:089][541]LogInit: FAudioDevice initialized.
+[2019.02.13-14.16.36:124][541]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.13-14.16.36:131][541]LogWorld: Bringing World /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel up for play (max tick rate 0) at 2019.02.13-14.16.36
+[2019.02.13-14.16.36:132][541]LogWorld: Bringing up level for play took: 0.006456
+[2019.02.13-14.16.36:134][541]PIE: Play in editor start time for /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel 0.65
+[2019.02.13-14.16.59:000][276]Cmd: PreviousDebugTarget
+[2019.02.13-14.16.59:392][323]Cmd: NextDebugTarget
+[2019.02.13-14.17.00:196][419]Cmd: PreviousDebugTarget
+[2019.02.13-14.17.03:900][843]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.17.03:967][851]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.13-14.17.03:995][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.13-14.17.03:995][851]PIE: New page: PIE session: FastLevel (13 Feb 2019 14:17:03)
+[2019.02.13-14.17.03:995][851]LogPlayLevel: Creating play world package: /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel
+[2019.02.13-14.17.04:012][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016518s)
+[2019.02.13-14.17.04:013][851]LogAIModule: Creating AISystem for world FastLevel
+[2019.02.13-14.17.04:013][851]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2019.02.13-14.17.04:013][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dreamland/Levels/FastLevel/FastLevel.FastLevel to /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel (0.017371s)
+[2019.02.13-14.17.04:054][851]LogInit: XAudio2 using 'Speakers (Elgato Sound Capture)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.13-14.17.04:059][851]LogInit: FAudioDevice initialized.
+[2019.02.13-14.17.04:095][851]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.13-14.17.04:101][851]LogWorld: Bringing World /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel up for play (max tick rate 0) at 2019.02.13-14.17.04
+[2019.02.13-14.17.04:102][851]LogWorld: Bringing up level for play took: 0.006580
+[2019.02.13-14.17.04:104][851]PIE: Play in editor start time for /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel 0.621
+[2019.02.13-14.18.39:664][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.18.39:756][282]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.13-14.18.40:018][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.13-14.18.40:018][282]PIE: New page: PIE session: FastLevel (13 Feb 2019 14:18:40)
+[2019.02.13-14.18.40:018][282]LogPlayLevel: Creating play world package: /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel
+[2019.02.13-14.18.40:037][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018662s)
+[2019.02.13-14.18.40:038][282]LogAIModule: Creating AISystem for world FastLevel
+[2019.02.13-14.18.40:038][282]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2019.02.13-14.18.40:038][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dreamland/Levels/FastLevel/FastLevel.FastLevel to /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel (0.019880s)
+[2019.02.13-14.18.40:081][282]LogInit: XAudio2 using 'Speakers (Elgato Sound Capture)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.13-14.18.40:086][282]LogInit: FAudioDevice initialized.
+[2019.02.13-14.18.40:120][282]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.13-14.18.40:127][282]LogWorld: Bringing World /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel up for play (max tick rate 0) at 2019.02.13-14.18.40
+[2019.02.13-14.18.40:128][282]LogWorld: Bringing up level for play took: 0.006729
+[2019.02.13-14.18.40:130][282]PIE: Play in editor start time for /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel 0.646
+[2019.02.13-14.18.52:987][806]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.18.53:045][813]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.13-14.18.53:405][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.13-14.18.53:406][813]PIE: New page: PIE session: FastLevel (13 Feb 2019 14:18:53)
+[2019.02.13-14.18.53:406][813]LogPlayLevel: Creating play world package: /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel
+[2019.02.13-14.18.53:423][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016772s)
+[2019.02.13-14.18.53:423][813]LogAIModule: Creating AISystem for world FastLevel
+[2019.02.13-14.18.53:423][813]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2019.02.13-14.18.53:423][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dreamland/Levels/FastLevel/FastLevel.FastLevel to /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel (0.017599s)
+[2019.02.13-14.18.53:466][813]LogInit: XAudio2 using 'Speakers (Elgato Sound Capture)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.13-14.18.53:472][813]LogInit: FAudioDevice initialized.
+[2019.02.13-14.18.53:502][813]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.13-14.18.53:509][813]LogWorld: Bringing World /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel up for play (max tick rate 0) at 2019.02.13-14.18.53
+[2019.02.13-14.18.53:509][813]LogWorld: Bringing up level for play took: 0.006868
+[2019.02.13-14.18.53:512][813]PIE: Play in editor start time for /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel 0.028
+[2019.02.13-14.18.58:632][400]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.19.31:788][275]BlueprintLog: New page: Compile FallingPlatforms
+[2019.02.13-14.19.31:797][275]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ead4224560, Size=216
+[2019.02.13-14.19.31:797][275]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ead889be40, Size=216, Default__FallingPlatforms_C Function /Engine/Transient.REINST_FallingPlatforms_C_34:ExecuteUbergraph_FallingPlatforms
+[2019.02.13-14.19.31:799][275]LogUObjectGlobals: Created PersistentFrame Addr=0x000001ead70ea080, Size=216, Default__FallingPlatforms_C Function /Game/Dreamland/Blueprints/Platforms/FallingPlatforms.FallingPlatforms_C:ExecuteUbergraph_FallingPlatforms
+[2019.02.13-14.19.38:181][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.19.38:247][673]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.13-14.19.38:276][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.13-14.19.38:277][673]PIE: New page: PIE session: FastLevel (13 Feb 2019 14:19:38)
+[2019.02.13-14.19.38:277][673]LogPlayLevel: Creating play world package: /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel
+[2019.02.13-14.19.38:293][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016601s)
+[2019.02.13-14.19.38:294][673]LogAIModule: Creating AISystem for world FastLevel
+[2019.02.13-14.19.38:294][673]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2019.02.13-14.19.38:294][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dreamland/Levels/FastLevel/FastLevel.FastLevel to /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel (0.017378s)
+[2019.02.13-14.19.38:336][673]LogInit: XAudio2 using 'Speakers (Elgato Sound Capture)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.13-14.19.38:342][673]LogInit: FAudioDevice initialized.
+[2019.02.13-14.19.38:375][673]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.13-14.19.38:381][673]LogWorld: Bringing World /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel up for play (max tick rate 0) at 2019.02.13-14.19.38
+[2019.02.13-14.19.38:382][673]LogWorld: Bringing up level for play took: 0.006497
+[2019.02.13-14.19.38:384][673]PIE: Play in editor start time for /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel 0.9
+[2019.02.13-14.19.46:837][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.19.51:205][186]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.13-14.19.51:263][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.13-14.19.51:263][186]PIE: New page: PIE session: FastLevel (13 Feb 2019 14:19:51)
+[2019.02.13-14.19.51:263][186]LogPlayLevel: Creating play world package: /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel
+[2019.02.13-14.19.51:280][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016929s)
+[2019.02.13-14.19.51:280][186]LogAIModule: Creating AISystem for world FastLevel
+[2019.02.13-14.19.51:281][186]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2019.02.13-14.19.51:281][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dreamland/Levels/FastLevel/FastLevel.FastLevel to /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel (0.017728s)
+[2019.02.13-14.19.51:325][186]LogInit: XAudio2 using 'Speakers (Elgato Sound Capture)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.13-14.19.51:330][186]LogInit: FAudioDevice initialized.
+[2019.02.13-14.19.51:360][186]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.13-14.19.51:366][186]LogWorld: Bringing World /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel up for play (max tick rate 0) at 2019.02.13-14.19.51
+[2019.02.13-14.19.51:367][186]LogWorld: Bringing up level for play took: 0.006271
+[2019.02.13-14.19.51:369][186]PIE: Play in editor start time for /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel -0.115
+[2019.02.13-14.20.42:137][245]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.13-14.20.42:142][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dreamland/Levels/FastLevel/FastLevel" FILE="F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.13-14.20.44:177][245]LogSavePackage: Save=1670.44ms
+[2019.02.13-14.20.44:177][245]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/FastLevel2EA7EC1347C6C945AA43C9A5A28F13CD.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel.umap'
+[2019.02.13-14.20.44:185][245]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel.umap
+[2019.02.13-14.20.44:220][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dreamland/Levels/FastLevel/FastLevel_BuiltData" FILE="F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel_BuiltData.uasset" SILENT=true
+[2019.02.13-14.20.44:421][245]LogSavePackage: Save=172.23ms
+[2019.02.13-14.20.44:423][245]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/FastLevel_BuiltData5523FC174B10258A52E3DC9BA8CF9513.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel_BuiltData.uasset'
+[2019.02.13-14.20.44:427][245]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel_BuiltData.uasset
+[2019.02.13-14.22.03:906][763]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.22.03:997][774]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.13-14.22.04:338][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.13-14.22.04:338][774]PIE: New page: PIE session: FastLevel (13 Feb 2019 14:22:04)
+[2019.02.13-14.22.04:338][774]LogPlayLevel: Creating play world package: /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel
+[2019.02.13-14.22.04:355][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017577s)
+[2019.02.13-14.22.04:355][774]LogAIModule: Creating AISystem for world FastLevel
+[2019.02.13-14.22.04:355][774]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2019.02.13-14.22.04:355][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dreamland/Levels/FastLevel/FastLevel.FastLevel to /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel (0.018327s)
+[2019.02.13-14.22.04:378][774]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001ead889be40, Size=216
+[2019.02.13-14.22.04:400][774]LogInit: XAudio2 using 'Speakers (Elgato Sound Capture)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.13-14.22.04:406][774]LogInit: FAudioDevice initialized.
+[2019.02.13-14.22.04:437][774]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.13-14.22.04:444][774]LogWorld: Bringing World /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel up for play (max tick rate 0) at 2019.02.13-14.22.04
+[2019.02.13-14.22.04:445][774]LogWorld: Bringing up level for play took: 0.006634
+[2019.02.13-14.22.04:447][774]PIE: Play in editor start time for /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel 0.963
+[2019.02.13-14.24.03:504][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.24.03:573][ 15]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.13-14.24.03:926][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.13-14.24.03:926][ 15]PIE: New page: PIE session: FastLevel (13 Feb 2019 14:24:03)
+[2019.02.13-14.24.03:926][ 15]LogPlayLevel: Creating play world package: /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel
+[2019.02.13-14.24.03:944][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017744s)
+[2019.02.13-14.24.03:944][ 15]LogAIModule: Creating AISystem for world FastLevel
+[2019.02.13-14.24.03:945][ 15]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2019.02.13-14.24.03:945][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dreamland/Levels/FastLevel/FastLevel.FastLevel to /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel (0.018579s)
+[2019.02.13-14.24.03:988][ 15]LogInit: XAudio2 using 'Speakers (Elgato Sound Capture)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.13-14.24.03:994][ 15]LogInit: FAudioDevice initialized.
+[2019.02.13-14.24.04:025][ 15]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.13-14.24.04:033][ 15]LogWorld: Bringing World /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel up for play (max tick rate 0) at 2019.02.13-14.24.04
+[2019.02.13-14.24.04:033][ 15]LogWorld: Bringing up level for play took: 0.006853
+[2019.02.13-14.24.04:035][ 15]PIE: Play in editor start time for /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel 0.552
+[2019.02.13-14.26.32:684][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.26.32:791][778]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.13-14.26.33:436][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.13-14.26.33:436][778]PIE: New page: PIE session: FastLevel (13 Feb 2019 14:26:33)
+[2019.02.13-14.26.33:436][778]LogPlayLevel: Creating play world package: /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel
+[2019.02.13-14.26.33:454][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017957s)
+[2019.02.13-14.26.33:454][778]LogAIModule: Creating AISystem for world FastLevel
+[2019.02.13-14.26.33:455][778]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2019.02.13-14.26.33:455][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dreamland/Levels/FastLevel/FastLevel.FastLevel to /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel (0.018840s)
+[2019.02.13-14.26.33:499][778]LogInit: XAudio2 using 'Speakers (Elgato Sound Capture)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.13-14.26.33:505][778]LogInit: FAudioDevice initialized.
+[2019.02.13-14.26.33:538][778]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.13-14.26.33:545][778]LogWorld: Bringing World /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel up for play (max tick rate 0) at 2019.02.13-14.26.33
+[2019.02.13-14.26.33:546][778]LogWorld: Bringing up level for play took: 0.006674
+[2019.02.13-14.26.33:547][778]PIE: Play in editor start time for /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel 0.064
+[2019.02.13-14.26.56:996][567]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.27.51:150][123]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.13-14.27.52:280][244]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.13-14.27.52:295][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dreamland/Blueprints/Platforms/FallingPlatforms" FILE="F:/Project/Dreamland/Content/Dreamland/Blueprints/Platforms/FallingPlatforms.uasset" SILENT=true
+[2019.02.13-14.27.52:410][244]LogSavePackage: Save=88.50ms
+[2019.02.13-14.27.52:410][244]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/FallingPlatforms483FBDA3411208885D632DA28B8A561D.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Blueprints/Platforms/FallingPlatforms.uasset'
+[2019.02.13-14.27.52:417][244]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Blueprints/Platforms/FallingPlatforms.uasset
+[2019.02.13-14.27.52:625][244]LogSavePackage: Save=184.93ms
+[2019.02.13-14.27.52:626][244]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/BrickWorld_5x25087EC1C74EF54001B35BF29A1A0791A0.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25.uasset'
+[2019.02.13-14.27.52:636][244]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25.uasset
+[2019.02.13-14.27.52:839][244]LogSavePackage: Save=181.95ms
+[2019.02.13-14.27.52:839][244]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/BrickWorld_5x25_2A37C31CA4B5EAE6574D4F38D22EB0DDE.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2.uasset'
+[2019.02.13-14.27.52:848][244]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2.uasset
+[2019.02.13-14.27.58:332][896]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.13-14.28.08:098][950]LogEditorFactories: Performing atomic reimport of [D:/Itch/assetforge/BrickWorld_5x5.obj]
+[2019.02.13-14.28.08:387][950]LogFbx: Loading FBX Scene from D:/Itch/assetforge/BrickWorld_5x5.obj
+[2019.02.13-14.28.08:601][950]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.13-14.28.08:675][950]LogStaticMesh: Building static mesh BrickWorld_5x5...
+[2019.02.13-14.28.13:545][950]LogStaticMesh: Built static mesh [4.87s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x5.BrickWorld_5x5
+[2019.02.13-14.28.13:614][950]LogEditorFactories: -- imported successfully
+[2019.02.13-14.28.13:619][950]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.02.13-14.28.13:619][950]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2019.02.13-14.28.23:741][789]LogEditorFactories: Performing atomic reimport of [D:/Itch/assetforge/BrickWorld_5x10.obj]
+[2019.02.13-14.28.23:763][789]LogFbx: Loading FBX Scene from D:/Itch/assetforge/BrickWorld_5x10.obj
+[2019.02.13-14.28.24:331][789]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.13-14.28.24:497][789]LogStaticMesh: Building static mesh BrickWorld_5x10...
+[2019.02.13-14.28.34:221][789]LogStaticMesh: Built static mesh [9.72s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x10.BrickWorld_5x10
+[2019.02.13-14.28.34:355][789]LogEditorFactories: -- imported successfully
+[2019.02.13-14.28.34:364][789]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.02.13-14.28.50:255][350]LogEditorFactories: Performing atomic reimport of [D:/Itch/assetforge/BrickWorld_5x25.obj]
+[2019.02.13-14.28.50:289][350]LogFbx: Loading FBX Scene from D:/Itch/assetforge/BrickWorld_5x25.obj
+[2019.02.13-14.28.51:411][350]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.13-14.28.51:637][350]LogStaticMesh: Building static mesh BrickWorld_5x25...
+[2019.02.13-14.29.16:069][350]LogStaticMesh: Built static mesh [24.43s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25.BrickWorld_5x25
+[2019.02.13-14.29.16:737][350]LogEditorFactories: -- imported successfully
+[2019.02.13-14.29.16:761][350]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.02.13-14.29.17:331][350]LogEditorFactories: Performing atomic reimport of [D:/Itch/assetforge/BrickWorld_5x25_2.obj]
+[2019.02.13-14.29.17:375][350]LogFbx: Loading FBX Scene from D:/Itch/assetforge/BrickWorld_5x25_2.obj
+[2019.02.13-14.29.18:455][350]LogFbx: FBX Scene Loaded Succesfully
+[2019.02.13-14.29.18:671][350]LogStaticMesh: Building static mesh BrickWorld_5x25_2...
+[2019.02.13-14.29.43:648][350]LogStaticMesh: Built static mesh [24.98s] /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2.BrickWorld_5x25_2
+[2019.02.13-14.29.43:995][350]LogEditorFactories: -- imported successfully
+[2019.02.13-14.29.44:018][350]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.02.13-14.30.21:842][669]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.13-14.30.21:895][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.13-14.30.21:895][669]PIE: New page: PIE session: FastLevel (13 Feb 2019 14:30:21)
+[2019.02.13-14.30.21:895][669]LogPlayLevel: Creating play world package: /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel
+[2019.02.13-14.30.21:913][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017782s)
+[2019.02.13-14.30.21:913][669]LogAIModule: Creating AISystem for world FastLevel
+[2019.02.13-14.30.21:914][669]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2019.02.13-14.30.21:914][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dreamland/Levels/FastLevel/FastLevel.FastLevel to /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel (0.018813s)
+[2019.02.13-14.30.21:960][669]LogInit: XAudio2 using 'Speakers (Elgato Sound Capture)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.13-14.30.21:966][669]LogInit: FAudioDevice initialized.
+[2019.02.13-14.30.21:996][669]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.13-14.30.22:006][669]LogWorld: Bringing World /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel.FastLevel up for play (max tick rate 0) at 2019.02.13-14.30.22
+[2019.02.13-14.30.22:007][669]LogWorld: Bringing up level for play took: 0.007390
+[2019.02.13-14.30.22:009][669]PIE: Play in editor start time for /Game/Dreamland/Levels/FastLevel/UEDPIE_0_FastLevel 0.526
+[2019.02.13-14.36.11:884][460]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.13-14.36.13:996][460]LogSavePackage: Save=1652.52ms
+[2019.02.13-14.36.13:996][460]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/FastLevel_Auto5714CDCE64331DC9524343FA8F131F9EE.tmp' to 'F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Levels/FastLevel/FastLevel_Auto5.umap'
+[2019.02.13-14.36.13:999][460]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Levels/FastLevel/FastLevel_Auto5.umap
+[2019.02.13-14.36.14:003][460]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Dreamland/Levels/FastLevel/FastLevel' took 1.704
+[2019.02.13-14.36.14:003][460]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.704
+[2019.02.13-14.36.14:006][460]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x10] ([1] browsable assets)...
+[2019.02.13-14.36.14:021][460]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x10.BrickWorld_5x10]
+[2019.02.13-14.36.14:021][460]OBJ SavePackage: Finished generating thumbnails for package [/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x10]
+[2019.02.13-14.36.14:242][460]LogSavePackage: Save=140.05ms
+[2019.02.13-14.36.14:242][460]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/BrickWorld_5x10_Auto553875A364DA5AEFD22E6AEAF3FE766E8.tmp' to 'F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x10_Auto5.uasset'
+[2019.02.13-14.36.14:243][460]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x10_Auto5.uasset
+[2019.02.13-14.36.14:244][460]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x5] ([1] browsable assets)...
+[2019.02.13-14.36.14:255][460]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x5.BrickWorld_5x5]
+[2019.02.13-14.36.14:255][460]OBJ SavePackage: Finished generating thumbnails for package [/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x5]
+[2019.02.13-14.36.14:391][460]LogSavePackage: Save=83.36ms
+[2019.02.13-14.36.14:391][460]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/BrickWorld_5x5_Auto54CAF9068451D425FA08966AC856682B6.tmp' to 'F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x5_Auto5.uasset'
+[2019.02.13-14.36.14:394][460]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x5_Auto5.uasset
+[2019.02.13-14.36.14:394][460]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25] ([1] browsable assets)...
+[2019.02.13-14.36.14:406][460]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25.BrickWorld_5x25]
+[2019.02.13-14.36.14:406][460]OBJ SavePackage: Finished generating thumbnails for package [/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25]
+[2019.02.13-14.36.14:713][460]LogSavePackage: Save=190.61ms
+[2019.02.13-14.36.14:713][460]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/BrickWorld_5x25_Auto5E2FE4C3C46F659B25F776CBE7B07A0C2.tmp' to 'F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_Auto5.uasset'
+[2019.02.13-14.36.14:714][460]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_Auto5.uasset
+[2019.02.13-14.36.14:715][460]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2] ([1] browsable assets)...
+[2019.02.13-14.36.14:727][460]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2.BrickWorld_5x25_2]
+[2019.02.13-14.36.14:727][460]OBJ SavePackage: Finished generating thumbnails for package [/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2]
+[2019.02.13-14.36.15:047][460]LogSavePackage: Save=193.80ms
+[2019.02.13-14.36.15:047][460]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/BrickWorld_5x25_2_Auto57EA4EF364F314C0B3049F5A07598197B.tmp' to 'F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_Auto5.uasset'
+[2019.02.13-14.36.15:049][460]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Saved/Autosaves/Game/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2_Auto5.uasset
+[2019.02.13-14.36.15:049][460]LogFileHelpers: Auto-saving content packages took 1.043
+[2019.02.13-14.36.42:142][694]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.13-14.36.43:714][860]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.13-14.36.43:776][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Dreamland/Levels/FastLevel/FastLevel" FILE="F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.13-14.36.45:432][860]LogSavePackage: Save=1629.05ms
+[2019.02.13-14.36.45:433][860]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/FastLevel8E73123342D81ACEF43C80B9C4A495FD.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel.umap'
+[2019.02.13-14.36.45:445][860]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Levels/FastLevel/FastLevel.umap
+[2019.02.13-14.36.45:479][860]LogFileHelpers: Saving map 'FastLevel' took 1.760
+[2019.02.13-14.36.45:630][860]LogSavePackage: Save=138.10ms
+[2019.02.13-14.36.45:630][860]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/BrickWorld_5x10886894FF416883EF33CFCC904644B090.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x10.uasset'
+[2019.02.13-14.36.45:643][860]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x10.uasset
+[2019.02.13-14.36.45:729][860]LogSavePackage: Save=74.29ms
+[2019.02.13-14.36.45:729][860]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/BrickWorld_5x50D06F7E84D4BB38FD37BAA849ABEF74B.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x5.uasset'
+[2019.02.13-14.36.45:748][860]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x5.uasset
+[2019.02.13-14.36.45:963][860]LogSavePackage: Save=203.28ms
+[2019.02.13-14.36.45:963][860]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/BrickWorld_5x25D93D341249568C9471C0FB9E147D4FD5.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25.uasset'
+[2019.02.13-14.36.45:975][860]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25.uasset
+[2019.02.13-14.36.46:179][860]LogSavePackage: Save=192.29ms
+[2019.02.13-14.36.46:180][860]LogSavePackage: Moving 'F:/Project/Dreamland/Saved/BrickWorld_5x25_2429C3B364350E1CB4B217087A0655463.tmp' to 'F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2.uasset'
+[2019.02.13-14.36.46:187][860]LogSavePackage: Display: Finished SavePackage F:/Project/Dreamland/Content/Dreamland/Meshes/FastWorld/Platforms/Normal/BrickWorld_5x25_2.uasset
+[2019.02.13-14.38.20:812][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
